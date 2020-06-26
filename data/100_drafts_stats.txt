@@ -1,0 +1,31 @@
+Counts
+Monogreen           0.16
+White Weenie        0.14
+Monored             0.12
+Monoblack           0.12
+Blink               0.10
+Aristocrats         0.07
+Spellslinger        0.06
+Simic Ramp          0.04
+Kiki Combo          0.04
+Dimir Reanimator    0.04
+Azorius Control     0.04
+Wildfire            0.03
+Dimir Control       0.02
+dtype: float64
+
+Mean score
+Monored             0.57
+White Weenie        0.55
+Aristocrats         0.51
+Blink               0.49
+Monoblack           0.49
+Monogreen           0.46
+Spellslinger        0.45
+Kiki Combo          0.44
+Dimir Reanimator    0.43
+Simic Ramp          0.41
+Wildfire            0.41
+Azorius Control     0.40
+Dimir Control       0.40
+dtype: float64

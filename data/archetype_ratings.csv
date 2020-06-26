@@ -1,0 +1,361 @@
+name,white_weenie,blink,azorius_control,dimir_control,dimir_reanimator,spellslinger,wildfire,kiki_combo,simic_ramp,monoblack,aristocrats,monored,monogreen
+Dauntless Bodyguard,2,0,0,0,0,0,0,0,0,0,0,0,0
+Giver of Runes,4,0,0,0,0,0,0,0,0,0,0,0,0
+"Isamaru, Hound of Konda",4,0,0,0,0,0,0,0,0,0,0,0,0
+Mardu Woe-Reaper,2,0,0,0,0,0,0,0,0,0,0,0,0
+Skymarcher Aspirant,2,0,0,0,0,0,0,0,0,0,0,0,0
+Soldier of the Pantheon,3,0,0,0,0,0,0,0,0,0,0,0,0
+Steppe Lynx,2,0,0,0,0,0,0,0,0,0,0,0,0
+Thraben Inspector,3,3,3,0,0,0,0,0,0,0,0,0,0
+Accorder Paladin,3,0,0,0,0,0,0,0,0,0,0,0,0
+"Anafenza, Kin-Tree Spirit",3,0,0,0,0,0,0,0,0,0,0,0,0
+Charming Prince,2,3,3,0,0,0,0,0,0,0,0,0,0
+Knight of the White Orchid,2,2,0,0,0,0,0,0,0,0,0,0,0
+Selfless Spirit,3,0,0,0,0,0,0,0,0,0,0,0,0
+"Thalia, Guardian of Thraben",4,0,0,0,0,0,0,0,0,0,0,0,0
+Tithe Taker,2,0,0,0,0,0,0,0,0,0,0,0,0
+Wall of Omens,1,3,3,0,0,0,0,0,0,0,0,0,0
+Blade Splicer,3,3,0,0,0,0,0,0,0,0,0,0,0
+"Brimaz, King of Oreskos",4,0,0,0,0,0,0,0,0,0,0,0,0
+Flickerwisp,3,4,2,0,0,0,0,0,0,0,0,0,0
+Heliod's Pilgrim,1,2,2,0,0,0,0,0,0,0,0,0,0
+Silverblade Paladin,3,0,0,0,0,0,0,0,0,0,0,0,0
+Hero of Bladehold,4,0,0,0,0,0,0,0,0,0,0,0,0
+Restoration Angel,3,4,3,0,0,0,0,0,0,0,0,0,0
+Lyra Dawnbringer,0,0,3,0,0,0,0,0,0,0,0,0,0
+Reveillark,0,3,2,0,0,0,0,0,0,0,0,0,0
+Sun Titan,0,4,4,0,0,0,0,0,0,0,0,0,0
+"Elesh Norn, Grand Cenobite",0,0,2,0,2,0,0,0,0,0,0,0,0
+Condemn,0,0,3,0,0,0,0,0,0,0,0,0,0
+Ephemerate,0,3,0,0,0,0,0,0,0,0,0,0,0
+Gods Willing,3,0,0,0,0,0,0,0,0,0,0,0,0
+Path to Exile,4,3,3,0,0,0,0,0,0,0,0,0,0
+Raise the Alarm,2,0,1,0,0,0,0,0,0,0,0,0,0
+Shelter,2,0,0,0,0,0,0,0,0,0,0,0,0
+Forsake the Worldly,0,1,2,0,0,0,0,0,0,0,0,0,0
+Secure the Wastes,0,0,3,0,0,0,0,0,0,0,0,0,0
+Lingering Souls,3,1,2,2,0,0,0,0,0,0,0,0,0
+Spectral Procession,3,0,0,0,0,0,0,0,0,0,0,0,0
+Timely Reinforcements,0,0,3,0,0,0,0,0,0,0,0,0,0
+Day of Judgment,0,0,4,0,0,0,0,0,0,0,0,0,0
+Sram's Expertise,3,0,0,0,0,0,0,0,0,0,0,0,0
+Wrath of God,0,0,4,0,0,0,0,0,0,0,0,0,0
+Triplicate Spirits,2,0,0,0,0,0,0,0,0,0,0,0,0
+Approach of the Second Sun,0,0,4,0,0,0,0,0,0,0,0,0,0
+Honor of the Pure,3,0,0,0,0,0,0,0,0,0,0,0,0
+Intangible Virtue,2,0,0,0,0,0,0,0,0,0,0,0,0
+Journey to Nowhere,3,3,3,0,0,0,0,0,0,0,0,0,0
+Banishing Light,2,2,3,0,0,0,0,0,0,0,0,0,0
+Oblivion Ring,2,2,3,0,0,0,0,0,0,0,0,0,0
+Cast Out,0,1,3,0,0,0,0,0,0,0,0,0,0
+Faith's Fetters,0,1,3,0,0,0,0,0,0,0,0,0,0
+Spear of Heliod,3,1,0,0,0,0,0,0,0,0,0,0,0
+Delver of Secrets,0,0,0,3,0,3,0,0,0,0,0,0,0
+Brazen Borrower,0,3,3,3,1,0,0,0,0,0,0,0,0
+Looter il-Kor,0,0,1,2,3,0,0,2,0,0,0,0,0
+Merfolk Looter,0,0,0,2,3,0,0,2,0,0,0,0,0
+Snapcaster Mage,0,4,4,4,4,4,4,4,0,0,0,0,0
+Thassa's Oracle,0,2,2,2,2,0,0,3,0,0,0,0,0
+Watcher for Tomorrow,0,3,2,2,2,1,2,2,0,0,0,0,0
+Champion of Wits,0,3,2,3,3,1,3,2,2,0,0,0,0
+Cloudkin Seer,0,3,2,2,2,1,0,1,0,0,0,0,0
+Deceiver Exarch,0,2,1,1,1,0,1,4,0,0,0,0,0
+Man-o'-War,0,3,2,2,2,0,2,2,0,0,0,0,0
+Pestermite,0,2,1,1,1,0,1,4,0,0,0,0,0
+Vendilion Clique,0,4,4,4,4,3,3,3,0,0,0,0,0
+Dungeon Geists,0,3,2,2,2,0,0,2,0,0,0,0,0
+Ninja of the Deep Hours,0,3,1,1,0,0,0,0,0,0,0,0,0
+"Talrand, Sky Summoner",0,0,2,2,1,4,0,0,0,0,0,0,0
+"Urza, Lord High Artificer",0,3,3,3,2,1,3,1,0,0,0,0,0
+"Venser, Shaper Savant",0,4,3,3,2,1,2,2,0,0,0,0,0
+Whirler Rogue,0,3,2,2,2,0,0,0,0,0,0,0,0
+Mulldrifter,0,3,3,3,3,2,3,2,3,0,0,0,0
+Riftwing Cloudskate,0,3,2,2,2,0,3,0,0,0,0,0,0
+Frost Titan,0,2,4,4,4,0,4,0,3,0,0,0,0
+Torrential Gearhulk,0,2,3,3,3,0,2,0,0,0,0,0,0
+Inkwell Leviathan,0,0,1,0,3,0,1,0,1,0,0,0,0
+Brainstorm,0,2,3,3,3,4,3,4,0,0,0,0,0
+Opt,0,0,1,1,1,2,2,2,0,0,0,0,0
+Spell Pierce,0,0,2,2,1,3,2,3,0,0,0,0,0
+Blink of an Eye,0,1,1,1,1,2,1,1,0,0,0,0,0
+Censor,0,1,2,2,2,3,2,2,0,0,0,0,0
+Counterspell,0,2,3,4,4,4,4,4,0,0,0,0,0
+Essence Scatter,0,2,2,3,3,3,2,3,0,0,0,0,0
+Impulse,0,0,2,2,2,3,3,3,0,0,0,0,0
+Mana Leak,0,2,3,3,3,4,3,3,0,0,0,0,0
+Negate,0,0,3,2,2,3,3,3,0,0,0,0,0
+Remand,0,3,4,4,4,4,4,4,0,0,0,0,0
+Ghostly Flicker,0,3,0,0,0,0,0,0,0,0,0,0,0
+Thirst for Knowledge,0,0,2,3,3,2,3,3,2,0,0,0,0
+Cryptic Command,0,2,4,4,4,4,4,4,0,0,0,0,0
+Fact or Fiction,0,0,3,3,4,3,3,3,3,0,0,0,0
+Gifts Ungiven,0,0,2,2,3,1,1,3,3,0,0,0,0
+Repeal,0,2,2,2,2,3,2,1,0,0,0,0,0
+Dig Through Time,0,0,3,4,4,4,4,4,0,0,0,0,0
+Ponder,0,2,4,4,4,4,4,4,0,0,0,0,0
+Preordain,0,2,4,4,4,4,4,4,0,0,0,0,0
+Serum Visions,0,0,2,2,2,3,2,3,0,0,0,0,0
+Chart a Course,0,2,2,3,3,3,3,3,0,0,0,0,0
+Compulsive Research,0,0,3,3,4,3,3,3,3,0,0,0,0
+Deep Analysis,0,0,2,3,3,2,2,2,3,0,0,0,0
+Polymorph,0,0,0,0,1,0,0,0,0,0,0,0,0
+Treasure Cruise,0,0,3,4,4,4,4,3,0,0,0,0,0
+Mind Control,0,0,2,2,0,0,0,0,0,0,0,0,0
+"Thassa, Deep-Dwelling",0,4,0,0,0,0,0,0,0,0,0,0,0
+Bloodsoaked Champion,0,0,0,0,0,0,0,0,0,2,3,0,0
+Carrion Feeder,0,0,0,0,0,0,0,0,0,2,4,0,0
+Cryptbreaker,0,0,0,1,2,0,0,0,0,3,2,0,0
+Gravecrawler,0,0,0,0,0,0,0,0,0,2,4,0,0
+Viscera Seer,0,0,0,0,0,0,0,0,0,0,3,0,0
+Blood Artist,0,0,0,0,0,0,0,0,0,3,4,0,0
+Bloodghast,0,0,0,0,0,0,0,0,0,2,4,0,0
+Dark Confidant,0,0,0,3,0,0,0,0,0,4,4,0,0
+Oona's Prowler,0,0,0,0,3,0,0,0,0,2,0,0,0
+Zulaport Cutthroat,0,0,0,0,0,0,0,0,0,2,3,0,0
+Midnight Reaper,0,0,0,2,1,0,0,0,0,3,3,0,0
+Ophiomancer,0,0,0,1,1,0,0,0,0,2,3,0,0
+Vampire Nighthawk,0,0,0,2,0,0,0,0,0,3,0,0,0
+Woe Strider,0,0,0,0,0,0,0,0,0,3,3,0,0
+"Gonti, Lord of Luxury",0,0,0,2,2,0,0,0,0,3,0,0,0
+Phyrexian Obliterator,0,0,0,0,0,0,0,0,0,4,0,0,0
+"Rankle, Master of Pranks",0,0,0,0,2,0,0,0,0,3,0,0,0
+Ravenous Chupacabra,0,0,0,2,2,0,0,0,0,3,1,0,0
+Gray Merchant of Asphodel,0,0,0,0,0,0,0,0,0,4,0,0,0
+Shriekmaw,0,0,0,3,3,0,0,0,0,3,2,0,0
+Grave Titan,0,0,0,4,4,0,0,0,0,4,0,0,0
+"Tasigur, the Golden Fang",0,0,0,3,2,0,0,0,0,2,0,0,0
+Gurmag Angler,0,0,0,3,1,0,0,0,0,3,0,0,0
+"Sheoldred, Whispering One",0,0,0,1,3,0,0,0,0,0,0,0,0
+Griselbrand,0,0,0,0,4,0,0,0,0,0,0,0,0
+Scrapheap Scrounger,1,0,0,0,0,0,0,0,0,2,2,1,0
+Bolas's Citadel,0,0,0,3,0,0,0,0,0,3,0,0,0
+Fatal Push,0,0,0,3,3,0,0,0,0,3,2,0,0
+Tragic Slip,0,0,0,1,1,0,0,0,0,2,2,0,0
+Doom Blade,0,0,0,2,2,0,0,0,0,2,2,0,0
+Go for the Throat,0,0,0,2,2,0,0,0,0,2,2,0,0
+Heartless Act,0,0,0,2,2,0,0,0,0,2,2,0,0
+Ultimate Price,0,0,0,2,2,0,0,0,0,2,2,0,0
+Makeshift Mannequin,0,0,0,0,4,0,0,0,0,0,0,0,0
+Murderous Cut,0,0,0,3,3,0,0,0,0,3,2,0,0
+Duress,0,0,0,3,3,0,0,0,0,3,3,0,0
+Inquisition of Kozilek,0,0,0,3,3,0,0,0,0,3,3,0,0
+Thoughtseize,0,0,0,4,4,0,0,0,0,4,4,0,0
+Unearth,0,0,0,2,0,0,0,0,0,3,4,0,0
+Collective Brutality,0,0,0,3,4,0,0,0,0,4,3,0,0
+Night's Whisper,0,0,0,3,3,0,0,0,0,3,2,0,0
+Damnation,0,0,0,4,3,0,0,0,0,1,0,0,0
+Dread Return,0,0,0,0,4,0,0,0,0,1,2,0,0
+Unburial Rites,0,0,0,1,4,0,0,0,0,1,0,0,0
+Mind Shatter,0,0,0,3,1,0,0,0,0,2,0,0,0
+Dreadhorde Invasion,0,0,0,0,0,0,0,0,0,2,4,0,0
+Phyrexian Arena,0,0,0,4,3,0,0,0,0,4,2,0,0
+The Eldest Reborn,0,0,0,3,4,0,0,0,0,2,0,0,0
+Whip of Erebos,0,0,0,1,3,0,0,0,0,3,0,0,0
+Nightmare Shepherd,0,0,0,0,0,0,0,0,0,3,3,0,0
+Falkenrath Gorger,0,0,0,0,0,0,0,0,0,0,1,3,0
+Firedrinker Satyr,0,0,0,0,0,0,0,0,0,0,1,3,0
+Goblin Guide,0,0,0,0,0,0,0,0,0,0,2,4,0
+Grim Lavamancer,0,0,0,0,0,2,1,1,0,0,0,3,0
+Monastery Swiftspear,0,0,0,0,0,2,0,0,0,0,0,3,0
+Soul-Scar Mage,0,0,0,0,0,0,0,0,0,0,0,3,0
+Zurgo Bellstriker,0,0,0,0,0,0,0,0,0,0,2,4,0
+Aether Chaser,0,0,0,0,0,0,0,0,0,0,1,2,0
+Bonecrusher Giant,0,0,0,0,0,1,0,0,0,0,1,4,0
+"Kari Zev, Skyship Raider",0,0,0,0,0,0,0,0,0,0,1,3,0
+Kiln Fiend,0,0,0,0,0,2,0,0,0,0,0,2,0
+Mogg War Marshal,0,0,0,0,0,0,0,0,0,0,3,2,0
+Young Pyromancer,0,0,0,0,0,4,2,1,0,0,1,4,0
+Goblin Rabblemaster,0,0,0,0,0,0,1,0,0,0,3,3,0
+Guttersnipe,0,0,0,0,0,2,0,0,0,0,0,2,0
+Hissing Iguanar,0,0,0,0,0,0,0,0,0,0,3,1,0
+Legion Warboss,0,0,0,0,0,0,1,0,0,0,3,3,0
+Seasoned Pyromancer,0,0,0,0,0,0,2,0,0,0,3,3,0
+Avalanche Riders,0,0,0,0,0,0,2,0,0,0,0,2,0
+Flametongue Kavu,0,0,0,0,0,0,2,1,0,0,0,2,0
+Hellrider,0,0,0,0,0,0,0,0,0,0,1,2,0
+Pia and Kiran Nalaar,0,0,0,0,0,0,0,0,0,0,3,3,0
+Glorybringer,0,0,0,0,0,0,3,0,0,0,0,1,0
+"Kiki-Jiki, Mirror Breaker",0,0,0,0,0,0,0,4,0,0,0,0,0
+Zealous Conscripts,0,0,0,0,0,0,2,4,0,0,0,0,0
+Inferno Titan,0,0,0,0,0,2,4,2,0,0,0,0,0
+Greater Gargadon,0,0,0,0,0,0,1,0,0,0,2,0,0
+Burst Lightning,0,0,0,0,0,2,2,2,0,0,1,2,0
+Lightning Bolt,0,0,0,0,0,4,4,4,0,0,3,4,0
+Abrade,0,0,0,0,0,3,3,3,0,0,2,2,0
+Incinerate,0,0,0,0,0,2,2,2,0,0,1,3,0
+Lightning Strike,0,0,0,0,0,2,2,2,0,0,1,3,0
+Magma Jet,0,0,0,0,0,2,2,2,0,0,1,2,0
+Searing Blaze,0,0,0,0,0,1,0,0,0,0,1,3,0
+Thrill of Possibility,0,0,0,0,0,3,2,2,0,0,1,0,0
+Brimstone Volley,0,0,0,0,0,0,0,0,0,0,0,3,0
+Char,0,0,0,0,0,0,0,0,0,0,0,3,0
+Through the Breach,0,0,0,0,0,0,3,0,0,0,0,0,0
+Electrodominance,0,0,0,0,0,2,3,1,0,0,0,1,0
+Faithless Looting,0,0,0,0,0,3,4,3,0,0,2,2,0
+Firebolt,0,0,0,0,0,2,2,2,0,0,1,2,0
+Flame Slash,0,0,0,0,0,2,2,2,0,0,1,2,0
+Arc Trail,0,0,0,0,0,2,2,2,0,0,1,2,0
+Anger of the Gods,0,0,0,0,0,2,4,4,0,0,0,0,0
+Rift Bolt,0,0,0,0,0,2,0,0,0,0,1,3,0
+Burning of Xinye,0,0,0,0,0,0,4,0,0,0,0,0,0
+Wildfire,0,0,0,0,0,0,4,0,0,0,0,0,0
+Destructive Force,0,0,0,0,0,0,4,0,0,0,0,0,0
+Splinter Twin,0,0,0,0,0,0,0,4,0,0,0,0,0
+Eidolon of the Great Revel,0,0,0,0,0,0,0,0,0,0,2,4,0
+Arbor Elf,0,0,0,0,0,0,0,0,3,0,0,0,3
+Birds of Paradise,0,0,0,0,0,0,0,0,4,0,0,0,4
+Elvish Mystic,0,0,0,0,0,0,0,0,3,0,0,0,3
+Fyndhorn Elves,0,0,0,0,0,0,0,0,3,0,0,0,3
+Joraga Treespeaker,0,0,0,0,0,0,0,0,4,0,0,0,4
+Llanowar Elves,0,0,0,0,0,0,0,0,2,0,0,0,2
+Noble Hierarch,0,0,0,0,0,0,0,0,4,0,0,0,4
+Devoted Druid,0,0,0,0,0,0,0,0,3,0,0,0,3
+Fauna Shaman,0,0,0,0,0,0,0,0,2,0,0,0,2
+Lotus Cobra,0,0,0,0,0,0,0,0,2,0,0,0,2
+Overgrown Battlement,0,0,0,0,0,0,0,0,2,0,0,0,2
+Sakura-Tribe Elder,0,0,0,0,0,0,0,0,2,0,0,0,2
+Satyr Wayfinder,0,0,0,0,0,0,0,0,1,0,0,0,1
+Scavenging Ooze,0,0,0,0,0,0,0,0,2,0,0,0,2
+Sylvan Caryatid,0,0,0,0,0,0,0,0,2,0,0,0,2
+Tarmogoyf,0,0,0,0,0,0,0,0,1,0,0,0,1
+Wall of Blossoms,0,0,0,0,0,0,0,0,1,0,0,0,1
+Wall of Roots,0,0,0,0,0,0,0,0,2,0,0,0,2
+Elvish Archdruid,0,0,0,0,0,0,0,0,1,0,0,0,1
+Eternal Witness,0,0,0,0,0,0,0,0,4,0,0,0,4
+Ramunap Excavator,0,0,0,0,0,0,0,0,2,0,0,0,2
+Reclamation Sage,0,0,0,0,0,0,0,0,2,0,0,0,2
+Tireless Tracker,0,0,0,0,0,0,0,0,3,0,0,0,3
+Master of the Wild Hunt,0,0,0,0,0,0,0,0,2,0,0,0,2
+Oracle of Mul Daya,0,0,0,0,0,0,0,0,4,0,0,0,4
+Acidic Slime,0,0,0,0,0,0,0,0,3,0,0,0,3
+Biogenic Ooze,0,0,0,0,0,0,0,0,3,0,0,0,3
+Thragtusk,0,0,0,0,0,0,0,0,3,0,0,0,3
+Primeval Titan,0,0,0,0,0,0,0,0,4,0,0,0,4
+Rampaging Baloths,0,0,0,0,0,0,0,0,2,0,0,0,2
+Pelakka Wurm,0,0,0,0,0,0,0,0,2,0,0,0,2
+Voracious Hydra,0,0,0,0,0,0,0,0,4,0,0,0,4
+Craterhoof Behemoth,0,0,0,0,0,0,0,0,4,0,0,0,4
+Woodfall Primus,0,0,0,0,0,0,0,0,3,0,0,0,3
+Nature's Claim,0,0,0,0,0,0,0,0,2,0,0,0,2
+Harrow,0,0,0,0,0,0,0,0,2,0,0,0,1
+Pulse of Murasa,0,0,0,0,0,0,0,0,2,0,0,0,2
+Chord of Calling,0,0,0,0,0,0,0,0,3,0,0,0,3
+Explore,0,0,0,0,0,0,0,0,2,0,0,0,2
+Farseek,0,0,0,0,0,0,0,0,3,0,0,0,1
+Life from the Loam,0,0,0,0,0,0,0,0,0,0,0,0,0
+Regrowth,0,0,0,0,0,0,0,0,2,0,0,0,2
+Winding Way,0,0,0,0,0,0,0,0,2,0,0,0,2
+Cultivate,0,0,0,0,0,0,0,0,3,0,0,0,2
+Kodama's Reach,0,0,0,0,0,0,0,0,3,0,0,0,2
+Search for Tomorrow,0,0,0,0,0,0,0,0,3,0,0,0,3
+Primal Command,0,0,0,0,0,0,0,0,4,0,0,0,4
+Tooth and Nail,0,0,0,0,0,0,0,0,2,0,0,0,2
+Genesis Wave,0,0,0,0,0,0,0,0,1,0,0,0,2
+Utopia Sprawl,0,0,0,0,0,0,0,0,3,0,0,0,3
+Courser of Kruphix,0,0,0,0,0,0,0,0,3,0,0,0,3
+Dryad of the Ilysian Grove,0,0,0,0,0,0,0,0,3,0,0,0,2
+Soulherder,0,4,0,0,0,0,0,0,0,0,0,0,0
+"Yorion, Sky Nomad",0,4,3,0,0,0,0,0,0,0,0,0,0
+Momentary Blink,0,4,0,0,0,0,0,0,0,0,0,0,0
+Sphinx's Revelation,0,0,4,0,0,0,0,0,0,0,0,0,0
+Supreme Verdict,0,0,4,0,0,0,0,0,0,0,0,0,0
+Shadowmage Infiltrator,0,0,0,2,2,0,0,0,0,0,0,0,0
+Thief of Sanity,0,0,0,3,3,0,0,0,0,0,0,0,0
+Tomebound Lich,0,0,0,3,4,0,0,0,0,0,0,0,0
+Hostage Taker,0,0,0,3,2,0,0,0,0,0,0,0,0
+"Gyruda, Doom of Depths",0,0,0,2,4,0,0,0,0,0,0,0,0
+Rakdos Cackler,0,0,0,0,0,0,0,0,0,2,1,3,0
+"Kroxa, Titan of Death's Hunger",0,0,0,0,0,0,0,0,0,0,3,0,0
+Falkenrath Aristocrat,0,0,0,0,0,0,0,0,0,0,4,0,0
+Murderous Redcap,0,0,0,2,1,0,1,0,0,2,3,0,0
+"Obosh, the Preypiercer",0,0,0,0,0,0,0,0,0,0,2,2,0
+Kolaghan's Command,0,0,0,0,0,0,0,0,0,0,4,0,0
+Gruul Signet,0,0,0,0,0,0,3,0,0,0,0,0,0
+Kitchen Finks,2,2,2,0,0,0,0,0,2,0,0,0,2
+Nature's Chant,1,0,2,0,0,0,0,0,0,0,0,0,1
+Lurrus of the Dream-Den,3,1,0,2,1,0,0,0,0,3,4,0,0
+Fiend Artisan,0,0,0,1,1,0,0,0,0,4,4,0,1
+Abrupt Decay,0,0,0,0,0,0,0,0,0,0,0,0,0
+Maelstrom Pulse,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Uro, Titan of Nature's Wrath",0,0,0,0,0,0,0,0,4,0,0,0,0
+Prophet of Kruphix,0,0,0,0,0,0,0,0,4,0,0,0,0
+"Tatyova, Benthic Druid",0,0,0,0,0,0,0,0,3,0,0,0,0
+Hydroid Krasis,0,0,0,0,0,0,0,0,4,0,0,0,0
+Sprite Dragon,0,0,0,0,0,4,0,0,0,0,0,0,0
+"Jori En, Ruin Diver",0,0,0,0,0,3,1,1,0,0,0,0,0
+Izzet Charm,0,0,0,0,0,4,4,4,0,0,0,0,0
+Electrolyze,0,0,0,0,0,4,4,4,0,0,0,0,0
+Figure of Destiny,3,0,0,0,0,0,0,0,0,0,1,3,0
+Boros Reckoner,3,0,0,0,0,0,0,0,0,0,0,3,0
+Boros Charm,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lightning Helix,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Emrakul, the Aeons Torn",0,0,0,0,0,0,0,0,0,0,0,0,0
+Pilgrim's Eye,0,2,1,1,1,0,2,1,1,0,0,0,0
+Porcelain Legionnaire,2,0,0,1,1,0,0,0,0,1,1,2,0
+Solemn Simulacrum,0,3,3,3,3,2,3,3,2,2,1,0,2
+"Golos, Tireless Pilgrim",0,2,3,2,1,0,3,2,2,0,0,0,1
+Stonecoil Serpent,2,2,3,3,2,1,4,2,4,2,0,2,4
+Myr Battlesphere,0,1,3,2,4,0,4,0,4,0,0,0,4
+Sundering Titan,0,0,0,0,4,0,2,0,2,0,0,0,2
+Hangarback Walker,2,1,2,2,1,0,3,0,1,2,2,2,2
+Walking Ballista,2,1,4,4,3,1,4,1,4,3,2,2,4
+Everflowing Chalice,0,0,2,1,1,0,3,0,1,1,0,0,1
+Bonesplitter,3,0,0,0,0,0,0,0,0,1,0,3,0
+Shadowspear,2,0,0,0,0,0,0,0,0,2,0,2,0
+Coldsteel Heart,0,0,2,2,2,0,3,2,0,1,0,0,0
+Fellwar Stone,0,0,1,1,1,0,3,1,0,0,0,0,0
+Mind Stone,0,1,3,3,3,0,4,3,2,3,0,0,2
+Prismatic Lens,0,0,2,2,2,0,3,2,0,0,0,0,0
+Prophetic Prism,0,0,2,2,1,0,3,2,0,0,0,0,0
+Thought Vessel,0,0,2,1,0,0,3,0,0,0,0,0,0
+Vulshok Morningstar,2,0,0,0,0,0,0,0,0,0,0,2,0
+Chromatic Lantern,0,0,2,1,0,0,3,2,0,0,0,0,0
+Crucible of Worlds,0,0,3,3,3,0,4,1,0,0,0,0,0
+Grafted Wargear,1,0,0,0,0,0,0,0,0,0,3,0,0
+Loxodon Warhammer,0,0,0,0,1,0,0,0,0,2,0,0,0
+Sword of Feast and Famine,3,0,0,2,0,0,0,0,0,3,0,3,0
+Sword of Fire and Ice,3,0,0,2,0,0,0,0,0,3,0,3,0
+Hedron Archive,0,0,2,2,0,0,4,0,0,0,0,0,0
+Panharmonicon,0,3,0,0,0,0,0,0,0,0,0,0,0
+Gilded Lotus,0,0,2,2,2,0,4,0,0,0,0,0,0
+Staff of Nin,0,0,2,2,1,0,3,0,0,0,0,0,0
+Arid Mesa,0,4,4,0,0,4,4,4,0,0,4,0,0
+Badlands,0,0,0,0,0,0,0,0,0,0,9,0,0
+Bayou,0,0,0,0,0,0,0,0,0,0,0,0,0
+Blood Crypt,0,0,0,0,0,0,0,0,0,0,4,0,0
+Bloodstained Mire,0,0,0,4,4,4,4,4,0,0,4,0,0
+Breeding Pool,0,0,0,0,0,0,0,0,4,0,0,0,0
+Fabled Passage,0,2,3,4,4,3,4,3,2,0,2,0,0
+Flooded Strand,0,4,4,4,4,4,4,4,4,0,0,0,0
+Godless Shrine,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hallowed Fountain,0,4,4,0,0,0,0,0,0,0,0,0,0
+Indatha Triome,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ketria Triome,0,0,0,0,0,4,4,4,4,0,0,0,0
+Mana Confluence,0,2,0,0,0,1,0,0,0,0,2,0,0
+Marsh Flats,0,4,4,4,4,0,0,0,0,0,4,0,0
+Misty Rainforest,0,4,4,4,4,4,4,4,4,0,0,0,0
+Overgrown Tomb,0,0,0,0,0,0,0,0,0,0,0,0,0
+Plateau,0,0,0,0,0,0,0,0,0,0,0,0,0
+Polluted Delta,0,4,4,4,4,4,4,4,4,0,4,0,0
+Prismatic Vista,0,3,3,4,4,3,3,3,3,2,3,0,0
+Raugrin Triome,0,4,4,0,0,4,4,4,0,0,0,0,0
+Sacred Foundry,0,0,0,0,0,0,0,0,0,0,0,0,0
+Savai Triome,0,0,0,0,0,0,0,0,0,0,4,0,0
+Savannah,0,0,0,0,0,0,0,0,0,0,0,0,0
+Scalding Tarn,0,4,4,4,4,4,4,4,4,0,4,0,0
+Scrubland,0,0,0,0,0,0,0,0,0,0,0,0,0
+Steam Vents,0,0,0,0,0,4,4,4,0,0,0,0,0
+Stomping Ground,0,0,0,0,0,0,0,0,0,0,0,0,0
+Taiga,0,0,0,0,0,0,0,0,0,0,0,0,0
+Temple Garden,0,0,0,0,0,0,0,0,0,0,0,0,0
+Temple of Deceit,0,0,0,4,4,0,0,0,0,0,0,0,0
+Temple of Enlightenment,0,3,4,0,0,0,0,0,0,0,0,0,0
+Tropical Island,0,0,0,0,0,0,0,0,4,0,0,0,0
+Tundra,0,4,4,0,0,0,0,0,0,0,0,0,0
+Underground Sea,0,0,0,4,4,0,0,0,0,0,0,0,0
+Verdant Catacombs,0,0,0,4,4,0,0,0,4,0,4,0,0
+Volcanic Island,0,0,0,0,0,4,4,4,0,0,0,0,0
+Watery Grave,0,0,0,4,4,0,0,0,0,0,0,0,0
+Windswept Heath,0,4,4,0,0,0,0,0,4,0,0,0,0
+Wooded Foothills,0,0,0,0,0,4,4,4,4,0,4,0,0
+Zagoth Triome,0,0,0,4,4,0,0,0,4,0,0,0,0
