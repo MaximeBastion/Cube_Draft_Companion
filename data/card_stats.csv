@@ -1,0 +1,361 @@
+card,mean_pick_rank_rank,main_ratio_rank,max_rating,equity,pick_rank_sum,mean_pick_rank,main_count,side_count,main_ratio,name
+Oracle of Mul Daya,9,7,4,100.0,1,1.0,1.0,0.0,1.0,Oracle of Mul Daya
+Panharmonicon,13,8,3,54.05844155844155,1,1.0,1.0,0.0,1.0,Panharmonicon
+Prismatic Vista,18,20,4,46.25,1,1.0,1.0,0.0,1.0,Prismatic Vista
+Ophiomancer,17,6,3,44.28191489361703,1,1.0,1.0,0.0,1.0,Ophiomancer
+Ketria Triome,16,44,4,38.013698630136986,1,1.0,1.0,0.0,1.0,Ketria Triome
+Primeval Titan,25,17,4,36.87707641196013,2,2.0,1.0,0.0,1.0,Primeval Titan
+Zagoth Triome,1,99,4,36.15635179153095,1,1.0,1.0,0.0,1.0,Zagoth Triome
+Raugrin Triome,24,25,4,35.23809523809524,1,1.0,1.0,0.0,1.0,Raugrin Triome
+Myr Battlesphere,12,66,4,34.905660377358494,1,1.0,1.0,0.0,1.0,Myr Battlesphere
+Pestermite,30,11,4,33.333333333333336,2,2.0,1.0,0.0,1.0,Pestermite
+Phyrexian Arena,33,12,4,30.327868852459016,2,2.0,1.0,0.0,1.0,Phyrexian Arena
+Marsh Flats,20,56,4,30.163043478260875,1,1.0,1.0,0.0,1.0,Marsh Flats
+Ponder,35,16,4,27.88944723618091,2,2.0,1.0,0.0,1.0,Ponder
+Misty Rainforest,22,62,4,27.33990147783252,1,1.0,1.0,0.0,1.0,Misty Rainforest
+Thoughtseize,3,134,4,25.694444444444446,1,1.0,1.0,0.0,1.0,Thoughtseize
+Whip of Erebos,6,91,3,25.0,1,1.0,1.0,0.0,1.0,Whip of Erebos
+Scalding Tarn,19,105,4,21.980198019801982,1,1.0,1.0,0.0,1.0,Scalding Tarn
+Sun Titan,15,121,4,21.637426900584796,1,1.0,1.0,0.0,1.0,Sun Titan
+"Venser, Shaper Savant",28,84,4,20.86466165413534,2,2.0,1.0,0.0,1.0,"Venser, Shaper Savant"
+Lightning Bolt,39,48,4,20.78651685393259,2,2.0,1.0,0.0,1.0,Lightning Bolt
+Restoration Angel,45,31,4,20.441988950276244,2,2.0,1.0,0.0,1.0,Restoration Angel
+Cryptic Command,5,166,4,20.255474452554743,1,1.0,1.0,0.0,1.0,Cryptic Command
+Verdant Catacombs,34,70,4,20.18181818181818,2,2.0,1.0,0.0,1.0,Verdant Catacombs
+Dig Through Time,4,174,4,19.750889679715307,1,1.0,1.0,0.0,1.0,Dig Through Time
+Wooded Foothills,31,95,4,18.655462184873954,2,2.0,1.0,0.0,1.0,Wooded Foothills
+Counterspell,7,180,4,18.19672131147541,1,1.0,1.0,0.0,1.0,Counterspell
+Ravenous Chupacabra,38,26,3,18.17685589519651,2,2.0,1.0,0.0,1.0,Ravenous Chupacabra
+Craterhoof Behemoth,11,173,4,17.647058823529413,1,1.0,1.0,0.0,1.0,Craterhoof Behemoth
+Inquisition of Kozilek,36,39,3,17.452830188679243,2,2.0,1.0,0.0,1.0,Inquisition of Kozilek
+Torrential Gearhulk,29,71,3,16.5506958250497,2,2.0,1.0,0.0,1.0,Torrential Gearhulk
+Voracious Hydra,41,87,4,16.5424739195231,2,2.0,1.0,0.0,1.0,Voracious Hydra
+Prophet of Kruphix,61,21,4,16.493313521545318,3,3.0,1.0,0.0,1.0,Prophet of Kruphix
+Knight of the White Orchid,21,46,2,15.948275862068966,1,1.0,1.0,0.0,1.0,Knight of the White Orchid
+Anger of the Gods,8,206,4,15.902578796561606,1,1.0,1.0,0.0,1.0,Anger of the Gods
+Arid Mesa,14,203,4,14.819759679572764,1,1.0,1.0,0.0,1.0,Arid Mesa
+Tundra,55,76,4,14.267352185089976,3,3.0,1.0,0.0,1.0,Tundra
+Destructive Force,27,171,4,14.17624521072797,2,2.0,1.0,0.0,1.0,Destructive Force
+Gurmag Angler,2,202,3,13.298722044728436,1,1.0,1.0,0.0,1.0,Gurmag Angler
+Phyrexian Obliterator,81,13,4,13.074204946996465,4,4.0,1.0,0.0,1.0,Phyrexian Obliterator
+Lurrus of the Dream-Den,72,51,4,12.714776632302408,3,3.0,1.0,0.0,1.0,Lurrus of the Dream-Den
+Steam Vents,57,104,4,12.585034013605444,3,3.0,1.0,0.0,1.0,Steam Vents
+Flooded Strand,42,154,4,12.585034013605444,2,2.0,1.0,0.0,1.0,Flooded Strand
+Fiend Artisan,47,138,4,12.55656108597285,2,2.0,1.0,0.0,1.0,Fiend Artisan
+Negate,51,52,3,12.5,3,3.0,1.0,0.0,1.0,Negate
+Mind Stone,71,61,4,12.430011198208286,3,3.0,1.0,0.0,1.0,Mind Stone
+"Gonti, Lord of Luxury",10,190,3,12.425373134328359,1,1.0,1.0,0.0,1.0,"Gonti, Lord of Luxury"
+Oblivion Ring,66,4,3,12.388392857142858,3,3.0,1.0,0.0,1.0,Oblivion Ring
+Fabled Passage,43,161,4,12.157721796276014,2,2.0,1.0,0.0,1.0,Fabled Passage
+Stonecoil Serpent,56,119,4,12.104689203925846,3,3.0,1.0,0.0,1.0,Stonecoil Serpent
+Breeding Pool,46,158,4,11.884368308351178,2,2.0,1.0,0.0,1.0,Breeding Pool
+Flickerwisp,48,153,4,11.821086261980831,2,2.0,1.0,0.0,1.0,Flickerwisp
+Inferno Titan,85,38,4,11.514522821576763,4,4.0,1.0,0.0,1.0,Inferno Titan
+Tropical Island,74,75,4,11.502590673575131,4,4.0,1.0,0.0,1.0,Tropical Island
+Gilded Lotus,44,186,4,11.122244488977957,2,2.0,1.0,0.0,1.0,Gilded Lotus
+Noble Hierarch,99,3,4,11.111111111111109,5,5.0,1.0,0.0,1.0,Noble Hierarch
+Dread Return,59,137,4,11.08891108891109,3,3.0,1.0,0.0,1.0,Dread Return
+Abrade,76,1,3,10.910878112712977,4,4.0,1.0,0.0,1.0,Abrade
+Ghostly Flicker,32,157,3,10.52465233881163,2,2.0,1.0,0.0,1.0,Ghostly Flicker
+Nightmare Shepherd,75,18,3,10.354477611940299,4,4.0,1.0,0.0,1.0,Nightmare Shepherd
+Journey to Nowhere,68,43,3,10.290482076637824,3,3.0,1.0,0.0,1.0,Journey to Nowhere
+Windswept Heath,80,94,4,10.258780036968577,4,4.0,1.0,0.0,1.0,Windswept Heath
+Brainstorm,52,188,4,10.239852398523984,3,3.0,1.0,0.0,1.0,Brainstorm
+"Uro, Titan of Nature's Wrath",89,79,4,9.849157054125998,4,4.0,1.0,0.0,1.0,"Uro, Titan of Nature's Wrath"
+Night's Whisper,77,34,3,9.547018348623853,4,4.0,1.0,0.0,1.0,Night's Whisper
+Walking Ballista,93,88,4,9.296482412060302,4,4.0,1.0,0.0,1.0,Walking Ballista
+Acidic Slime,26,214,3,9.22949002217295,2,2.0,1.0,0.0,1.0,Acidic Slime
+Soulherder,86,115,4,9.211618257261412,4,4.0,1.0,0.0,1.0,Soulherder
+Gray Merchant of Asphodel,64,189,4,9.196354598177301,3,3.0,1.0,0.0,1.0,Gray Merchant of Asphodel
+Zealous Conscripts,91,100,4,9.173553719008265,4,4.0,1.0,0.0,1.0,Zealous Conscripts
+Woodfall Primus,63,96,3,9.068627450980394,3,3.0,1.0,0.0,1.0,Woodfall Primus
+Remand,114,29,4,9.04645476772616,5,5.0,1.0,0.0,1.0,Remand
+Mana Leak,83,136,4,8.966074313408724,4,4.0,1.0,0.0,1.0,Mana Leak
+Utopia Sprawl,69,81,3,8.92282958199357,3,3.0,1.0,0.0,1.0,Utopia Sprawl
+Volcanic Island,102,85,4,8.705882352941176,5,5.0,1.0,0.0,1.0,Volcanic Island
+Compulsive Research,58,233,4,8.678655199374512,3,3.0,0.0,1.0,0.0,Compulsive Research
+Polluted Delta,23,356,4,8.551617873651772,1,1.0,0.0,1.0,0.0,Polluted Delta
+Everflowing Chalice,49,162,3,8.529713114754099,3,3.0,1.0,0.0,1.0,Everflowing Chalice
+Collective Brutality,78,184,4,8.333333333333334,4,4.0,1.0,0.0,1.0,Collective Brutality
+Mind Shatter,82,60,3,8.325000000000001,4,4.0,1.0,0.0,1.0,Mind Shatter
+Bloodstained Mire,73,212,4,8.125915080527086,4,4.0,1.0,0.0,1.0,Bloodstained Mire
+Magma Jet,53,53,2,8.055152394775037,3,3.0,1.0,0.0,1.0,Magma Jet
+Hallowed Fountain,84,192,4,7.838983050847458,4,4.0,1.0,0.0,1.0,Hallowed Fountain
+Dungeon Geists,54,178,3,7.751396648044693,3,3.0,1.0,0.0,1.0,Dungeon Geists
+The Eldest Reborn,104,131,4,7.745987438939289,5,5.0,1.0,0.0,1.0,The Eldest Reborn
+Snapcaster Mage,112,113,4,7.6079506511309125,5,5.0,1.0,0.0,1.0,Snapcaster Mage
+Primal Command,40,358,4,7.530529172320219,2,2.0,0.0,1.0,0.0,Primal Command
+Temple of Deceit,70,259,4,7.515233581584294,3,3.0,0.0,1.0,0.0,Temple of Deceit
+Eternal Witness,101,163,4,7.404936624416278,5,5.0,1.0,0.0,1.0,Eternal Witness
+Wildfire,127,93,4,7.165913492575854,6,6.0,1.0,0.0,1.0,Wildfire
+Birds of Paradise,96,197,4,7.156673114119923,4,4.0,1.0,0.0,1.0,Birds of Paradise
+"Thassa, Deep-Dwelling",119,130,4,7.025316455696203,5,5.0,1.0,0.0,1.0,"Thassa, Deep-Dwelling"
+Lightning Strike,105,49,3,6.954887218045112,5,5.0,1.0,0.0,1.0,Lightning Strike
+Deceiver Exarch,110,167,4,6.9331667707682705,5,5.0,1.0,0.0,1.0,Deceiver Exarch
+"Yorion, Sky Nomad",132,97,4,6.890130353817504,6,6.0,1.0,0.0,1.0,"Yorion, Sky Nomad"
+Blood Artist,111,191,4,6.595365418894832,5,5.0,1.0,0.0,1.0,Blood Artist
+Reveillark,117,32,3,6.575829383886258,5,5.0,1.0,0.0,1.0,Reveillark
+Banishing Light,67,204,3,6.4937597503900175,3,3.0,1.0,0.0,1.0,Banishing Light
+Chord of Calling,88,142,3,6.374425727411946,4,4.0,1.0,0.0,1.0,Chord of Calling
+Gravecrawler,116,196,4,6.350114416475973,5,5.0,1.0,0.0,1.0,Gravecrawler
+Mulldrifter,113,63,3,6.311599696739954,5,5.0,1.0,0.0,1.0,Mulldrifter
+Vendilion Clique,151,83,4,6.310403638430925,7,7.0,1.0,0.0,1.0,Vendilion Clique
+Thought Vessel,94,133,3,6.21732636295743,4,4.0,1.0,0.0,1.0,Thought Vessel
+Doom Blade,37,175,2,6.201117318435755,2,2.0,1.0,0.0,1.0,Doom Blade
+Thragtusk,60,251,3,6.1529933481153,3,3.0,0.0,1.0,0.0,Thragtusk
+Solemn Simulacrum,103,114,3,6.067784256559768,5,5.0,1.0,0.0,1.0,Solemn Simulacrum
+Bloodghast,125,198,4,6.019522776572669,6,6.0,1.0,0.0,1.0,Bloodghast
+Shriekmaw,106,112,3,5.963467048710603,5,5.0,1.0,0.0,1.0,Shriekmaw
+Dryad of the Ilysian Grove,87,177,3,5.942184154175589,4,4.0,1.0,0.0,1.0,Dryad of the Ilysian Grove
+Oona's Prowler,139,5,3,5.92526690391459,6,6.0,1.0,0.0,1.0,Oona's Prowler
+Joraga Treespeaker,175,42,4,5.916844349680171,8,8.0,1.0,0.0,1.0,Joraga Treespeaker
+Pilgrim's Eye,90,14,2,5.89171974522293,4,4.0,1.0,0.0,1.0,Pilgrim's Eye
+Impulse,131,37,3,5.858550316678395,6,6.0,1.0,0.0,1.0,Impulse
+Tooth and Nail,65,101,2,5.823714585519413,3,3.0,1.0,0.0,1.0,Tooth and Nail
+Dark Confidant,135,187,4,5.808477237048666,6,6.0,1.0,0.0,1.0,Dark Confidant
+Fyndhorn Elves,98,156,3,5.749309392265193,5,5.0,1.0,0.0,1.0,Fyndhorn Elves
+Frost Titan,148,155,4,5.70694087403599,7,7.0,1.0,0.0,1.0,Frost Titan
+Momentary Blink,108,289,4,5.701078582434516,5,5.0,0.0,1.0,0.0,Momentary Blink
+Heliod's Pilgrim,79,69,2,5.566700100300903,4,4.0,1.0,0.0,1.0,Heliod's Pilgrim
+Watcher for Tomorrow,123,90,3,5.550000000000001,6,6.0,1.0,0.0,1.0,Watcher for Tomorrow
+Grave Titan,143,195,4,5.508684863523573,6,6.0,1.0,0.0,1.0,Grave Titan
+Elvish Mystic,97,183,3,5.480579328505596,5,5.0,1.0,0.0,1.0,Elvish Mystic
+Treasure Cruise,182,73,4,5.443845022069643,8,8.0,1.0,0.0,1.0,Treasure Cruise
+Fact or Fiction,165,140,4,5.36231884057971,7,7.0,1.0,0.0,1.0,Fact or Fiction
+Whirler Rogue,128,92,3,5.350257069408741,6,6.0,1.0,0.0,1.0,Whirler Rogue
+Path to Exile,206,9,4,5.318639195016771,9,9.0,1.0,0.0,1.0,Path to Exile
+Hydroid Krasis,170,135,4,5.273159144893112,8,8.0,1.0,0.0,1.0,Hydroid Krasis
+Charming Prince,115,145,3,5.252365930599369,5,5.0,1.0,0.0,1.0,Charming Prince
+Electrolyze,158,181,4,5.228450306170513,7,7.0,1.0,0.0,1.0,Electrolyze
+Hedron Archive,152,209,4,5.170004657661854,7,7.0,1.0,0.0,1.0,Hedron Archive
+Midnight Reaper,144,59,3,5.148423005565863,6,6.0,1.0,0.0,1.0,Midnight Reaper
+Murderous Redcap,145,65,3,5.060790273556233,7,7.0,1.0,0.0,1.0,Murderous Redcap
+Chart a Course,124,143,3,4.988016776512882,6,6.0,1.0,0.0,1.0,Chart a Course
+Riftwing Cloudskate,147,67,3,4.982046678635548,7,7.0,1.0,0.0,1.0,Riftwing Cloudskate
+Izzet Charm,137,304,4,4.864154250657319,6,6.0,0.0,1.0,0.0,Izzet Charm
+Deep Analysis,122,169,3,4.820497973364216,6,6.0,1.0,0.0,1.0,Deep Analysis
+Wrath of God,160,235,4,4.815618221258135,7,7.0,0.0,1.0,0.0,Wrath of God
+Damnation,166,215,4,4.815618221258135,7,7.0,0.0,1.0,0.0,Damnation
+Gifts Ungiven,126,160,3,4.7844827586206895,6,6.0,1.0,0.0,1.0,Gifts Ungiven
+Sword of Fire and Ice,138,124,3,4.751712328767125,6,6.0,1.0,0.0,1.0,Sword of Fire and Ice
+Thraben Inspector,141,120,3,4.703389830508475,6,6.0,1.0,0.0,1.0,Thraben Inspector
+Bloodsoaked Champion,118,208,3,4.614745011086475,5,5.0,1.0,0.0,1.0,Bloodsoaked Champion
+Biogenic Ooze,121,199,3,4.607083563918096,6,6.0,1.0,0.0,1.0,Biogenic Ooze
+Tireless Tracker,155,86,3,4.604535398230088,7,7.0,1.0,0.0,1.0,Tireless Tracker
+Murderous Cut,164,64,3,4.544213973799128,7,7.0,1.0,0.0,1.0,Murderous Cut
+"Urza, Lord High Artificer",161,80,3,4.500000000000001,7,7.0,1.0,0.0,1.0,"Urza, Lord High Artificer"
+Fellwar Stone,142,147,3,4.4734013970983355,6,6.0,1.0,0.0,1.0,Fellwar Stone
+Faithless Looting,210,144,4,4.383886255924171,9,9.0,1.0,0.0,1.0,Faithless Looting
+Devoted Druid,92,328,3,4.372373949579832,4,4.0,0.0,1.0,0.0,Devoted Druid
+Burning of Xinye,212,152,4,4.309006211180124,9,9.0,1.0,0.0,1.0,Burning of Xinye
+Makeshift Mannequin,183,279,4,4.161979752530934,8,8.0,0.0,1.0,0.0,Makeshift Mannequin
+Cloudkin Seer,120,267,3,4.160419790104948,5,5.0,0.0,1.0,0.0,Cloudkin Seer
+Censor,130,239,3,4.127416955875063,6,6.0,0.0,1.0,0.0,Censor
+"Golos, Tireless Pilgrim",140,211,3,4.094933595671421,6,6.0,1.0,0.0,1.0,"Golos, Tireless Pilgrim"
+Thrill of Possibility,173,102,3,4.088899803536346,8,8.0,1.0,0.0,1.0,Thrill of Possibility
+Sundering Titan,235,122,4,4.086892488954344,10,10.0,1.0,0.0,1.0,Sundering Titan
+Kodama's Reach,190,47,3,4.078882900538951,8,8.0,1.0,0.0,1.0,Kodama's Reach
+Splinter Twin,237,118,4,4.07488986784141,10,10.0,1.0,0.0,1.0,Splinter Twin
+"Kiki-Jiki, Mirror Breaker",181,309,4,4.055535257581294,8,8.0,0.0,1.0,0.0,"Kiki-Jiki, Mirror Breaker"
+Preordain,276,2,4,4.0130151843817785,12,12.0,1.0,0.0,1.0,Preordain
+Cultivate,162,165,3,3.9361702127659584,7,7.0,1.0,0.0,1.0,Cultivate
+Fatal Push,168,146,3,3.9305949008498584,7,7.0,1.0,0.0,1.0,Fatal Push
+Ninja of the Deep Hours,203,33,3,3.91028651949272,9,9.0,1.0,0.0,1.0,Ninja of the Deep Hours
+Arbor Elf,153,200,3,3.9084507042253525,7,7.0,1.0,0.0,1.0,Arbor Elf
+Prismatic Lens,209,19,3,3.877503493246391,9,9.0,1.0,0.0,1.0,Prismatic Lens
+Champion of Wits,171,148,3,3.864902506963788,8,8.0,1.0,0.0,1.0,Champion of Wits
+Cryptbreaker,167,168,3,3.829346826126955,7,7.0,1.0,0.0,1.0,Cryptbreaker
+Ephemerate,169,164,3,3.8153070577451875,8,8.0,1.0,0.0,1.0,Ephemerate
+Kitchen Finks,134,45,2,3.76271186440678,6,6.0,1.0,0.0,1.0,Kitchen Finks
+Temple of Enlightenment,218,258,4,3.757616790792147,10,10.0,0.0,1.0,0.0,Temple of Enlightenment
+Unearth,273,78,4,3.7449392712550615,12,12.0,1.0,0.0,1.0,Unearth
+Grim Lavamancer,129,312,3,3.7398921832884096,6,6.0,0.0,1.0,0.0,Grim Lavamancer
+Duress,174,179,3,3.656126482213439,8,8.0,1.0,0.0,1.0,Duress
+Gruul Signet,136,308,3,3.6449211908931702,6,6.0,0.0,1.0,0.0,Gruul Signet
+Burst Lightning,107,151,2,3.6441234405778067,5,5.0,1.0,0.0,1.0,Burst Lightning
+Blink of an Eye,95,193,2,3.6298234139960757,4,4.0,1.0,0.0,1.0,Blink of an Eye
+Firebolt,50,345,2,3.6156351791530947,3,3.0,0.0,1.0,0.0,Firebolt
+Chromatic Lantern,192,139,3,3.5622593068035955,8,8.0,1.0,0.0,1.0,Chromatic Lantern
+Blade Splicer,178,194,3,3.5245554614733274,8,8.0,1.0,0.0,1.0,Blade Splicer
+"Rankle, Master of Pranks",233,24,3,3.46586178184846,10,10.0,1.0,0.0,1.0,"Rankle, Master of Pranks"
+Hangarback Walker,179,207,3,3.452924097884696,8,8.0,1.0,0.0,1.0,Hangarback Walker
+Electrodominance,146,321,3,3.435823359471729,7,7.0,0.0,1.0,0.0,Electrodominance
+Reclamation Sage,154,27,2,3.423812461443554,7,7.0,1.0,0.0,1.0,Reclamation Sage
+"Gyruda, Doom of Depths",234,303,4,3.4164358264081254,10,10.0,0.0,1.0,0.0,"Gyruda, Doom of Depths"
+Looter il-Kor,163,274,3,3.395187601957586,7,7.0,0.0,1.0,0.0,Looter il-Kor
+Brazen Borrower,198,159,3,3.3882783882783887,9,9.0,1.0,0.0,1.0,Brazen Borrower
+Savai Triome,301,103,4,3.344380837601687,13,13.0,1.0,0.0,1.0,Savai Triome
+Thassa's Oracle,217,129,3,3.25576847868596,10,10.0,1.0,0.0,1.0,Thassa's Oracle
+Bolas's Citadel,194,213,3,3.2279953470337346,9,9.0,1.0,0.0,1.0,Bolas's Citadel
+Crucible of Worlds,293,172,4,3.2211259431224604,13,13.0,1.0,0.0,1.0,Crucible of Worlds
+Spear of Heliod,224,116,3,3.2167697063369403,10,10.0,1.0,0.0,1.0,Spear of Heliod
+"Isamaru, Hound of Konda",338,41,4,3.1687125321153293,15,15.0,1.0,0.0,1.0,"Isamaru, Hound of Konda"
+"Tatyova, Benthic Druid",227,127,3,3.140324405884572,10,10.0,1.0,0.0,1.0,"Tatyova, Benthic Druid"
+Sphinx's Revelation,319,117,4,3.1347077096865297,14,14.0,1.0,0.0,1.0,Sphinx's Revelation
+Lingering Souls,253,50,3,3.1063432835820897,11,11.0,1.0,0.0,1.0,Lingering Souls
+Unburial Rites,286,245,4,3.0876216968011128,12,12.0,0.0,1.0,0.0,Unburial Rites
+Pelakka Wurm,177,10,2,3.083333333333334,8,8.0,1.0,0.0,1.0,Pelakka Wurm
+Faith's Fetters,228,141,3,3.0799112097669257,10,10.0,1.0,0.0,1.0,Faith's Fetters
+Vampire Nighthawk,246,82,3,3.07649667405765,11,11.0,1.0,0.0,1.0,Vampire Nighthawk
+Search for Tomorrow,239,108,3,3.0674281503316143,10,10.0,1.0,0.0,1.0,Search for Tomorrow
+Underground Sea,290,246,4,3.0511269928532156,13,13.0,0.0,1.0,0.0,Underground Sea
+Coldsteel Heart,219,185,3,3.0327868852459012,10,10.0,1.0,0.0,1.0,Coldsteel Heart
+Merfolk Looter,258,58,3,3.022875816993465,11,11.0,1.0,0.0,1.0,Merfolk Looter
+Young Pyromancer,339,98,4,3.0130293159609125,15,15.0,1.0,0.0,1.0,Young Pyromancer
+Thief of Sanity,204,253,3,2.97427652733119,9,9.0,0.0,1.0,0.0,Thief of Sanity
+Repeal,271,30,3,2.973214285714286,12,12.0,1.0,0.0,1.0,Repeal
+Sprite Dragon,306,234,4,2.950558213716109,13,13.0,0.0,1.0,0.0,Sprite Dragon
+"Tasigur, the Golden Fang",248,126,3,2.9128761371588525,11,11.0,1.0,0.0,1.0,"Tasigur, the Golden Fang"
+Pulse of Murasa,184,22,2,2.9118572927597066,8,8.0,1.0,0.0,1.0,Pulse of Murasa
+Supreme Verdict,313,238,4,2.8876170655567117,14,14.0,0.0,1.0,0.0,Supreme Verdict
+"Kroxa, Titan of Death's Hunger",201,292,3,2.8846153846153846,9,9.0,0.0,1.0,0.0,"Kroxa, Titan of Death's Hunger"
+Courser of Kruphix,236,176,3,2.882617728531856,10,10.0,1.0,0.0,1.0,Courser of Kruphix
+Giver of Runes,341,150,4,2.875647668393783,15,15.0,1.0,0.0,1.0,Giver of Runes
+Watery Grave,316,236,4,2.869700103412616,14,14.0,0.0,1.0,0.0,Watery Grave
+Tomebound Lich,314,244,4,2.8667355371900833,14,14.0,0.0,1.0,0.0,Tomebound Lich
+Farseek,187,351,3,2.8481012658227853,8,8.0,0.0,1.0,0.0,Farseek
+Spell Pierce,225,227,3,2.8403275332650972,10,10.0,0.0,1.0,0.0,Spell Pierce
+Blood Crypt,315,255,4,2.8352490421455943,14,14.0,0.0,1.0,0.0,Blood Crypt
+Condemn,230,217,3,2.8210776008132834,10,10.0,0.0,1.0,0.0,Condemn
+Carrion Feeder,351,149,4,2.805155420773313,15,15.0,1.0,0.0,1.0,Carrion Feeder
+Grafted Wargear,215,273,3,2.803974402155608,9,9.0,0.0,1.0,0.0,Grafted Wargear
+Approach of the Second Sun,329,226,4,2.797379032258065,14,14.0,0.0,1.0,0.0,Approach of the Second Sun
+Bonecrusher Giant,326,243,4,2.7826522938079723,14,14.0,0.0,1.0,0.0,Bonecrusher Giant
+Day of Judgment,302,333,4,2.7618810649415284,13,13.0,0.0,1.0,0.0,Day of Judgment
+Griselbrand,309,311,4,2.7591349739000743,13,13.0,0.0,1.0,0.0,Griselbrand
+Rampaging Baloths,195,23,2,2.74888558692422,9,9.0,1.0,0.0,1.0,Rampaging Baloths
+Inkwell Leviathan,213,302,3,2.7420948616600787,9,9.0,0.0,1.0,0.0,Inkwell Leviathan
+Greater Gargadon,109,313,2,2.735337604731395,5,5.0,0.0,1.0,0.0,Greater Gargadon
+Serum Visions,272,110,3,2.7295081967213113,12,12.0,1.0,0.0,1.0,Serum Visions
+Prophetic Prism,205,338,3,2.7170365535248044,9,9.0,0.0,1.0,0.0,Prophetic Prism
+Overgrown Battlement,100,348,2,2.715264187866928,5,5.0,0.0,1.0,0.0,Overgrown Battlement
+Glorybringer,221,286,3,2.7134941329856583,10,10.0,0.0,1.0,0.0,Glorybringer
+Man-o'-War,291,54,3,2.7099609375000004,13,13.0,1.0,0.0,1.0,Man-o'-War
+Badlands,353,205,4,2.6779252110977083,15,15.0,1.0,0.0,1.0,Badlands
+Regrowth,200,28,2,2.6631477927063343,9,9.0,1.0,0.0,1.0,Regrowth
+"Talrand, Sky Summoner",348,237,4,2.6485325697924123,15,15.0,0.0,1.0,0.0,"Talrand, Sky Summoner"
+"Thalia, Guardian of Thraben",343,257,4,2.642228040942633,15,15.0,0.0,1.0,0.0,"Thalia, Guardian of Thraben"
+Essence Scatter,216,340,3,2.617924528301887,9,9.0,0.0,1.0,0.0,Essence Scatter
+Dreadhorde Invasion,327,324,4,2.6166902404526167,14,14.0,0.0,1.0,0.0,Dreadhorde Invasion
+Staff of Nin,251,230,3,2.6015625,11,11.0,0.0,1.0,0.0,Staff of Nin
+"Brimaz, King of Oreskos",357,242,4,2.5837988826815645,15,15.0,0.0,1.0,0.0,"Brimaz, King of Oreskos"
+Triplicate Spirits,193,74,2,2.578996282527881,9,9.0,1.0,0.0,1.0,Triplicate Spirits
+"Jori En, Ruin Diver",232,306,3,2.5710315009264977,10,10.0,0.0,1.0,0.0,"Jori En, Ruin Diver"
+Kolaghan's Command,345,294,4,2.5623268698060944,15,15.0,0.0,1.0,0.0,Kolaghan's Command
+Goblin Guide,352,285,4,2.5371428571428574,15,15.0,0.0,1.0,0.0,Goblin Guide
+Thirst for Knowledge,289,132,3,2.5334753499695677,13,13.0,1.0,0.0,1.0,Thirst for Knowledge
+Eidolon of the Great Revel,349,322,4,2.4910233393177736,15,15.0,0.0,1.0,0.0,Eidolon of the Great Revel
+Wall of Roots,197,89,2,2.4810013410818064,9,9.0,1.0,0.0,1.0,Wall of Roots
+Falkenrath Aristocrat,344,353,4,2.4672149366525895,15,15.0,0.0,1.0,0.0,Falkenrath Aristocrat
+Cast Out,263,252,3,2.458653278204371,11,11.0,0.0,1.0,0.0,Cast Out
+Hero of Bladehold,355,325,4,2.4530386740331496,15,15.0,0.0,1.0,0.0,Hero of Bladehold
+Zulaport Cutthroat,277,219,3,2.429238400933762,12,12.0,0.0,1.0,0.0,Zulaport Cutthroat
+Rakdos Cackler,242,337,3,2.4264062955406596,11,11.0,0.0,1.0,0.0,Rakdos Cackler
+"Sheoldred, Whispering One",310,111,3,2.4249927177395865,13,13.0,1.0,0.0,1.0,"Sheoldred, Whispering One"
+Goblin Rabblemaster,259,284,3,2.4186519465427074,11,11.0,0.0,1.0,0.0,Goblin Rabblemaster
+Soul-Scar Mage,279,221,3,2.410947002606429,12,12.0,0.0,1.0,0.0,Soul-Scar Mage
+Zurgo Bellstriker,358,360,4,2.3819742489270386,15,15.0,0.0,1.0,0.0,Zurgo Bellstriker
+Sylvan Caryatid,196,125,2,2.3768736616702357,9,9.0,1.0,0.0,1.0,Sylvan Caryatid
+Through the Breach,270,268,3,2.3758561643835625,12,12.0,0.0,1.0,0.0,Through the Breach
+Mogg War Marshal,266,288,3,2.3623723041997735,12,12.0,0.0,1.0,0.0,Mogg War Marshal
+Flametongue Kavu,133,341,2,2.358691032724182,6,6.0,0.0,1.0,0.0,Flametongue Kavu
+Selfless Spirit,322,109,3,2.3470538483225263,14,14.0,1.0,0.0,1.0,Selfless Spirit
+Woe Strider,287,229,3,2.3404554399775095,12,12.0,0.0,1.0,0.0,Woe Strider
+Viscera Seer,278,260,3,2.338483146067416,12,12.0,0.0,1.0,0.0,Viscera Seer
+Delver of Secrets,307,170,3,2.3254189944134085,13,13.0,1.0,0.0,1.0,Delver of Secrets
+Accorder Paladin,295,223,3,2.3003592152528327,13,13.0,0.0,1.0,0.0,Accorder Paladin
+Hissing Iguanar,275,295,3,2.290233837689134,12,12.0,0.0,1.0,0.0,Hissing Iguanar
+Master of the Wild Hunt,226,57,2,2.2830111065405183,10,10.0,1.0,0.0,1.0,Master of the Wild Hunt
+Brimstone Volley,292,248,3,2.272106986899564,13,13.0,0.0,1.0,0.0,Brimstone Volley
+Sword of Feast and Famine,334,123,3,2.2445403073604746,14,14.0,1.0,0.0,1.0,Sword of Feast and Famine
+Incinerate,282,299,3,2.2397094430992737,12,12.0,0.0,1.0,0.0,Incinerate
+Hostage Taker,284,297,3,2.231305280085768,12,12.0,0.0,1.0,0.0,Hostage Taker
+Wall of Omens,297,254,3,2.2307073954983925,13,13.0,0.0,1.0,0.0,Wall of Omens
+Harrow,159,301,2,2.2262334536702766,7,7.0,0.0,1.0,0.0,Harrow
+Avalanche Riders,186,216,2,2.2129186602870816,8,8.0,0.0,1.0,0.0,Avalanche Riders
+Go for the Throat,189,210,2,2.2023809523809526,8,8.0,1.0,0.0,1.0,Go for the Throat
+Timely Reinforcements,304,249,3,2.198310007921838,13,13.0,0.0,1.0,0.0,Timely Reinforcements
+Forsake the Worldly,156,339,2,2.1536670547147847,7,7.0,0.0,1.0,0.0,Forsake the Worldly
+Bonesplitter,324,241,3,2.100681302043906,14,14.0,0.0,1.0,0.0,Bonesplitter
+Firedrinker Satyr,294,343,3,2.0975056689342404,13,13.0,0.0,1.0,0.0,Firedrinker Satyr
+Soldier of the Pantheon,333,218,3,2.0896084337349397,14,14.0,0.0,1.0,0.0,Soldier of the Pantheon
+Spectral Procession,331,225,3,2.0890840652446676,14,14.0,0.0,1.0,0.0,Spectral Procession
+"Kari Zev, Skyship Raider",308,307,3,2.0807298175456137,13,13.0,0.0,1.0,0.0,"Kari Zev, Skyship Raider"
+Char,325,256,3,2.071926331508213,14,14.0,0.0,1.0,0.0,Char
+"Elesh Norn, Grand Cenobite",172,320,2,2.0708955223880596,8,8.0,0.0,1.0,0.0,"Elesh Norn, Grand Cenobite"
+Lyra Dawnbringer,320,277,3,2.0652443562391465,14,14.0,0.0,1.0,0.0,Lyra Dawnbringer
+Monastery Swiftspear,321,290,3,2.0404411764705883,14,14.0,0.0,1.0,0.0,Monastery Swiftspear
+"Anafenza, Kin-Tree Spirit",340,232,3,2.0324707031249996,15,15.0,0.0,1.0,0.0,"Anafenza, Kin-Tree Spirit"
+Secure the Wastes,311,332,3,2.027520701412567,13,13.0,0.0,1.0,0.0,Secure the Wastes
+Boros Reckoner,332,263,3,2.026040399123875,14,14.0,0.0,1.0,0.0,Boros Reckoner
+Arc Trail,214,201,2,2.0233321181188484,9,9.0,1.0,0.0,1.0,Arc Trail
+Sram's Expertise,346,231,3,2.0045750060197447,15,15.0,0.0,1.0,0.0,Sram's Expertise
+Legion Warboss,337,271,3,1.9901984221850344,15,15.0,0.0,1.0,0.0,Legion Warboss
+Aether Chaser,211,228,2,1.9863994273443093,9,9.0,0.0,1.0,0.0,Aether Chaser
+Opt,176,347,2,1.9814352017136736,8,8.0,0.0,1.0,0.0,Opt
+Pia and Kiran Nalaar,318,354,3,1.9625176803394626,14,14.0,0.0,1.0,0.0,Pia and Kiran Nalaar
+Honor of the Pure,336,296,3,1.9597457627118644,14,14.0,0.0,1.0,0.0,Honor of the Pure
+Rift Bolt,328,323,3,1.9592845375382444,14,14.0,0.0,1.0,0.0,Rift Bolt
+Gods Willing,342,280,3,1.9542253521126762,15,15.0,0.0,1.0,0.0,Gods Willing
+"Obosh, the Preypiercer",185,344,2,1.9257460097154753,8,8.0,0.0,1.0,0.0,"Obosh, the Preypiercer"
+Falkenrath Gorger,330,352,3,1.9111570247933887,14,14.0,0.0,1.0,0.0,Falkenrath Gorger
+Shadowmage Infiltrator,191,334,2,1.9059065934065935,8,8.0,0.0,1.0,0.0,Shadowmage Infiltrator
+Silverblade Paladin,356,270,3,1.9050343249427917,15,15.0,0.0,1.0,0.0,Silverblade Paladin
+Figure of Destiny,347,346,3,1.8467169476486245,15,15.0,0.0,1.0,0.0,Figure of Destiny
+Scavenging Ooze,202,329,2,1.845693382108414,9,9.0,0.0,1.0,0.0,Scavenging Ooze
+Searing Blaze,354,330,3,1.837748344370861,15,15.0,0.0,1.0,0.0,Searing Blaze
+Hellrider,223,269,2,1.827461310503787,10,10.0,0.0,1.0,0.0,Hellrider
+Seasoned Pyromancer,359,331,3,1.8164957451451014,15,15.0,0.0,1.0,0.0,Seasoned Pyromancer
+Scrapheap Scrounger,274,106,2,1.8149117069980378,12,12.0,1.0,0.0,1.0,Scrapheap Scrounger
+Ultimate Price,283,77,2,1.8131329630839594,12,12.0,1.0,0.0,1.0,Ultimate Price
+Mana Confluence,296,55,2,1.7759999999999998,13,13.0,1.0,0.0,1.0,Mana Confluence
+Llanowar Elves,303,36,2,1.7686424474187379,13,13.0,1.0,0.0,1.0,Llanowar Elves
+Skymarcher Aspirant,241,250,2,1.7563291139240507,11,11.0,0.0,1.0,0.0,Skymarcher Aspirant
+Nature's Claim,222,315,2,1.7535545023696684,10,10.0,0.0,1.0,0.0,Nature's Claim
+Guttersnipe,229,305,2,1.731669266770671,10,10.0,0.0,1.0,0.0,Guttersnipe
+Mardu Woe-Reaper,243,283,2,1.6925892040256179,11,11.0,0.0,1.0,0.0,Mardu Woe-Reaper
+Tragic Slip,312,72,2,1.663669064748201,13,13.0,1.0,0.0,1.0,Tragic Slip
+Nature's Chant,247,293,2,1.6572111077933716,11,11.0,0.0,1.0,0.0,Nature's Chant
+Intangible Virtue,323,40,2,1.656716417910448,14,14.0,1.0,0.0,1.0,Intangible Virtue
+Shadowspear,238,335,2,1.6395864106351552,10,10.0,0.0,1.0,0.0,Shadowspear
+Heartless Act,256,298,2,1.606832657788072,11,11.0,0.0,1.0,0.0,Heartless Act
+Lotus Cobra,264,275,2,1.6017316017316017,11,11.0,0.0,1.0,0.0,Lotus Cobra
+Winding Way,281,222,2,1.596662830840046,12,12.0,0.0,1.0,0.0,Winding Way
+Dauntless Bodyguard,257,316,2,1.5776009096077312,11,11.0,0.0,1.0,0.0,Dauntless Bodyguard
+Shelter,254,336,2,1.5642615558060882,11,11.0,0.0,1.0,0.0,Shelter
+Genesis Wave,261,314,2,1.5625,11,11.0,0.0,1.0,0.0,Genesis Wave
+Sakura-Tribe Elder,260,326,2,1.5511458915595306,11,11.0,0.0,1.0,0.0,Sakura-Tribe Elder
+Porcelain Legionnaire,252,357,2,1.545530492898914,11,11.0,0.0,1.0,0.0,Porcelain Legionnaire
+Flame Slash,267,342,2,1.5016233766233766,12,12.0,0.0,1.0,0.0,Flame Slash
+Mind Control,285,287,2,1.4955537590945838,12,12.0,0.0,1.0,0.0,Mind Control
+Tithe Taker,298,247,2,1.4915345337274926,13,13.0,0.0,1.0,0.0,Tithe Taker
+Fauna Shaman,269,350,2,1.483957219251337,12,12.0,0.0,1.0,0.0,Fauna Shaman
+Vulshok Morningstar,299,261,2,1.4709780015902465,13,13.0,0.0,1.0,0.0,Vulshok Morningstar
+Explore,280,359,2,1.4315192158885737,12,12.0,0.0,1.0,0.0,Explore
+Raise the Alarm,300,317,2,1.4047076689445712,13,13.0,0.0,1.0,0.0,Raise the Alarm
+Ramunap Excavator,305,319,2,1.3850761167956078,13,13.0,0.0,1.0,0.0,Ramunap Excavator
+Steppe Lynx,335,224,2,1.379910492292392,14,14.0,0.0,1.0,0.0,Steppe Lynx
+Loxodon Warhammer,350,276,2,1.2823475046210722,15,15.0,0.0,1.0,0.0,Loxodon Warhammer
+Kiln Fiend,360,310,2,1.2251655629139073,15,15.0,0.0,1.0,0.0,Kiln Fiend
+Satyr Wayfinder,262,68,1,0.9826487252124647,11,11.0,1.0,0.0,1.0,Satyr Wayfinder
+Polymorph,288,15,1,0.9487179487179488,12,12.0,1.0,0.0,1.0,Polymorph
+Wall of Blossoms,231,265,1,0.8937198067632849,10,10.0,0.0,1.0,0.0,Wall of Blossoms
+Elvish Archdruid,268,182,1,0.8601983880967142,12,12.0,1.0,0.0,1.0,Elvish Archdruid
+Tarmogoyf,265,262,1,0.8076251455180443,12,12.0,0.0,1.0,0.0,Tarmogoyf
+Savannah,62,327,0,0.17332916926920677,3,3.0,0.0,1.0,0.0,Savannah
+Taiga,149,266,0,0.12128496503496503,7,7.0,0.0,1.0,0.0,Taiga
+Boros Charm,157,240,0,0.12117903930131005,7,7.0,0.0,1.0,0.0,Boros Charm
+Sacred Foundry,245,35,0,0.10861056751467711,11,11.0,1.0,0.0,1.0,Sacred Foundry
+Plateau,150,355,0,0.10818713450292401,7,7.0,0.0,1.0,0.0,Plateau
+Lightning Helix,180,272,0,0.10607798165137614,8,8.0,0.0,1.0,0.0,Lightning Helix
+Temple Garden,240,128,0,0.09967672413793106,10,10.0,1.0,0.0,1.0,Temple Garden
+"Emrakul, the Aeons Torn",188,318,0,0.09791813690896263,8,8.0,0.0,1.0,0.0,"Emrakul, the Aeons Torn"
+Life from the Loam,199,291,0,0.09692630108278032,9,9.0,0.0,1.0,0.0,Life from the Loam
+Scrubland,255,107,0,0.09665621734587253,11,11.0,1.0,0.0,1.0,Scrubland
+Indatha Triome,207,300,0,0.09343434343434345,9,9.0,0.0,1.0,0.0,Indatha Triome
+Abrupt Decay,220,282,0,0.0911030860144452,10,10.0,0.0,1.0,0.0,Abrupt Decay
+Overgrown Tomb,208,349,0,0.08874320434921651,9,9.0,0.0,1.0,0.0,Overgrown Tomb
+Godless Shrine,244,281,0,0.08452634785257386,11,11.0,0.0,1.0,0.0,Godless Shrine
+Bayou,250,264,0,0.08429526123936817,11,11.0,0.0,1.0,0.0,Bayou
+Maelstrom Pulse,249,278,0,0.0834837545126354,11,11.0,0.0,1.0,0.0,Maelstrom Pulse
+Stomping Ground,317,220,0,0.0724543080939948,14,14.0,0.0,1.0,0.0,Stomping Ground

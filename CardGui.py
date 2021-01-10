@@ -32,6 +32,7 @@ class PackGui:
         sprites = arcade.SpriteList()
         for c_gui in self.card_guis:
             sprites.append(c_gui.sprite)
+        return sprites
 
     def position_sprites(self, pack_window_left, pack_window_top, pack_window_width, pack_window_height, card_width,
                          card_height, card_scale, width_between_cards, height_between_cards):
@@ -49,15 +50,15 @@ class PackGui:
         :return: height of the view: px
         """
         n_cards = len(self.card_names)
-        max_cards_per_row = pack_window_width / (card_width + width_between_cards)
-        max_cards_per_column = pack_window_height / (card_height + height_between_cards)
+        max_cards_per_row = int(pack_window_width / (card_width + width_between_cards))
+        max_cards_per_column = int(pack_window_height / (card_height + height_between_cards))
         if max_cards_per_row * max_cards_per_column < n_cards:
             print("Can't fit that many cards")
             return None
 
         card_i = 0
         for row_i in range(max_cards_per_row):
-            top = pack_window_top + row_i * (card_height + height_between_cards)
+            top = pack_window_top - row_i * (card_height + height_between_cards)
             for col_i in range(max_cards_per_column):
                 left = pack_window_left + col_i * (card_width + width_between_cards)
                 card_gui = self.card_guis[card_i]

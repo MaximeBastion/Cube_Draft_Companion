@@ -21,6 +21,7 @@ class IoManager:
     CARD_IMAGES_PATH = "data/imgs"
     CARD_IMAGES_PATH_EN = CARD_IMAGES_PATH + "/en"
     CARD_IMAGES_PATH_FR = CARD_IMAGES_PATH + "/fr"
+    SPRITE_DIR_PATH = "data/imgs/sprites/"
     BASIC_LANDS = ["Plains", "Island", "Swamp", "Mountain", "Forest"]
     BASIC_LANDS_URLS = {
         "Plains": "https://img.scryfall.com/cards/large/front/a/9/a9891b7b-fc52-470c-9f74-292ae665f378.jpg?1581719749",
@@ -210,6 +211,11 @@ class IoManager:
         """
         imgs_folder = IoManager.CARD_IMAGES_PATH_EN if lang == "en" else IoManager.CARD_IMAGES_PATH_FR
         return imgs_folder + "/" + card_name + ".jpg"
+
+    @staticmethod
+    def get_sprite_path(sprite_name):
+        return IoManager.SPRITE_DIR_PATH + sprite_name
+
 
     @staticmethod
     def arch_presence_exists():

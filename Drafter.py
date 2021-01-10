@@ -1,7 +1,6 @@
 from Archeytpe import Archetype
 import random
 from Deck import Deck
-from sklearn import preprocessing
 
 
 class Drafter:
@@ -29,13 +28,14 @@ class Drafter:
         self.picks = []
         self.historic = []
         self.pack = []
-        self.deck: Deck = Deck(self.archetype)
+        self.deck: Deck = Deck(self.archetype, drafter=self)
         self.starting_strategy = strategy
         self.starting_archetype = archetype
 
     def select_pick(self, pack, ratings, debug=False):
         """
 
+        :param debug:
         :param pack: list of card names
         :param ratings: DataFrame containing the ratings of each card for each archetype
         :return: name of the card to pick according to the strategy
@@ -45,7 +45,7 @@ class Drafter:
             new_arch = self.archetypes.get_archetype_status(picks=self.picks, ratings=ratings)
             if new_arch:  # But I now have found an archetype, pivoting to forcing it
                 self.archetype = new_arch
-                self.deck = Deck(new_arch)
+                self.deck = Deck(new_arch, drafter=self)
                 self.strategy = "forcing"
                 if debug:
                     print(self.name + " is now forcing " + new_arch.name)
@@ -148,8 +148,8 @@ class Drafter:
         del self.pack[self.pack.index(pick_name)]
         return self.pack, pick_name
 
-    def build_deck(self, ratings, nonbasic_list):
-        self.deck.build(picks=self.picks, ratings=ratings, nonbasic_list=nonbasic_list)
+    def build_deck(self, ratings, nonbasic_list, base_infos):
+        self.deck.build(picks=self.picks, ratings=ratings, nonbasic_list=nonbasic_list, base_infos=base_infos)
         return self.deck
 
     def reset(self):
@@ -162,5 +162,15 @@ class Drafter:
         self.picks = []
         self.historic = []
         self.pack = []
+
+    def get_rank_per_pick_made(self) -> {}:
+        """
+        Uses self.historic to compute for each pick the pick rank = was it a first pick? a second pick?
+        :return: {card: pick_rank}
+        """
+        pack_size_per_pick_made = {}
+        for pack_snapshot, chosen_card in self.historic:
+            pack_size_per_pick_made[chosen_card] = 16 - len(pack_snapshot)
+        return pack_size_per_pick_made
 
 
