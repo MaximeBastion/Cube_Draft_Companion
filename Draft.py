@@ -196,7 +196,7 @@ class Draft:
         for pick_rank in pick_ranks:
             total_pick_rank = Draft.sum_dictionaries(total_pick_rank, pick_rank)
         # ranking
-        df = pd.DataFrame({"card": total_pick_rank.keys(), "pick_rank_sum": total_pick_rank.values()})
+        df = pd.DataFrame({"card": list(total_pick_rank.keys()), "pick_rank_sum": list(total_pick_rank.values())})
         df["mean_pick_rank"] = df.pick_rank_sum / n_drafts
         df = df.sort_values("mean_pick_rank").reset_index(drop=True)
         df["mean_pick_rank_rank"] = df.apply(lambda row: int(row.name) + 1, axis=1)
