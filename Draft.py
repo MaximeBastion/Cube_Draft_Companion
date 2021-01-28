@@ -116,8 +116,8 @@ class Draft:
             historic.append(historic_entry)
             pick_ranks.append(self.get_pick_rank_per_card_for_one_draft())
 
-            mains_one_draft = self.drafters[0].deck.main
-            sides_one_draft = self.drafters[0].deck.sideboard
+            mains_one_draft = self.drafters[0].deck.main.copy()
+            sides_one_draft = self.drafters[0].deck.sideboard.copy()
             for drafter in self.drafters[1:]:
                 mains_one_draft += drafter.deck.main
                 sides_one_draft += drafter.deck.sideboard
