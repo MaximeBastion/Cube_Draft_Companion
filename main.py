@@ -34,6 +34,7 @@ def main():
     draft, n_simulations = draft_usable(players=players, io_manager=io_manager, archetypes=archetypes)
     print("\n" + str(n_simulations) + " drafts were necessary")
     decks = draft.get_decks()
+    draft.save_decks_as_txts()
 
     launch_gui(decks=decks, io_manager=io_manager)
 

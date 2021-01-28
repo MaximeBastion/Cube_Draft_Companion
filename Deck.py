@@ -1,7 +1,8 @@
 import random
 from Archeytpe import Archetype
 from IoManager import IoManager
-
+import pandas as pd
+from datetime import datetime
 
 class Deck:
     basic_names = {
@@ -219,3 +220,42 @@ class Deck:
         :return:
         """
         return self.get_deck_metrics(ratings=ratings)[3] < 1
+
+    def get_as_str(self) -> str:
+        """
+
+        :return:
+        """
+
+        def get_card_as_text_line(main_rows, card_name):
+            rows_for_this_card = main_rows[main_rows.name == card_name]
+            if len(rows_for_this_card) == 0:
+                return card_name
+
+            row = rows_for_this_card.iloc[0]
+            line = "{mc} {name}".format(mc=row.mana_cost if not pd.isna(row.mana_cost) else "   ", name=row["name"])
+            return line
+
+        base_data = IoManager.base_infos_data.copy()
+        base_data["type"] = base_data.type_line\
+            .apply(lambda l: l.split(":")[0].replace("Legendary ", '')
+                   .replace("Enchantment Creature", "Creature") if ":" in l else l)
+        base_data = base_data.sort_values(["type", "cmc"], ascending=[True, True])
+        main_rows = base_data[base_data.name.isin(self.main)]
+        side_rows = base_data[base_data.name.isin(self.sideboard)]
+
+        main_text = "Main:\n" + "\n".join(
+            [get_card_as_text_line(main_rows, c_name) for c_name in list(main_rows.name)]
+        )
+        # basic counts
+        main_text += "\n" + "\n".join(["{qt} {name}".format(qt=value[0], name=key) for key, value in self.count_per_basic.items() if value[0] > 0])
+
+        side_text = "Sideboard:\n" + "\n".join(
+            [get_card_as_text_line(side_rows, c_name) for c_name in list(side_rows.name)]
+        )
+
+        intro_text = "{drafter_name}\n{archetype}\n{date_time}"\
+            .format(drafter_name=self.drafter.name, archetype=self.drafter.archetype.name, date_time=datetime.now())
+
+        complete_text = "\n\n".join([intro_text, main_text, side_text])
+        return complete_text

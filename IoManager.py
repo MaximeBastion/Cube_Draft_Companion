@@ -30,12 +30,14 @@ class IoManager:
         "Mountain": "https://img.scryfall.com/cards/large/front/5/3/53fb7b99-9e47-46a6-9c8a-88e28b5197f1.jpg?1582126072",
         "Forest": "https://img.scryfall.com/cards/large/front/3/2/32af9f41-89e2-4e7a-9fec-fffe79cae077.jpg?1582126077"
     }
+    base_infos_data = None
 
     def __init__(self, archetypes, download_missing_images=True):
         self.archetypes = archetypes
         self.cube_list = IoManager.get_cube_list()
         self.non_basics = self.get_nonbasic_lands_list()
         self.base_infos_df = IoManager.get_cards_base_info()
+        IoManager.base_infos_data = self.base_infos_df
         self.ratings = self.get_ratings()
         if download_missing_images:
             self.download_missing_images()

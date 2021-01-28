@@ -3,6 +3,8 @@ import random
 from Deck import Deck
 from Drafter import Drafter
 import pandas as pd
+from datetime import datetime
+from pathlib import Path
 
 class Draft:
 
@@ -76,6 +78,16 @@ class Draft:
 
     def get_decks(self):
         return [d.deck for d in self.drafters]
+
+    def save_decks_as_txts(self):
+        decks = self.get_decks()
+        dir = "data/decks/draft_{}".format(datetime.now()).replace(':', '_').replace(' ', '_')
+        Path(dir).mkdir(parents=True, exist_ok=True)
+        for deck in decks:
+            txt = deck.get_as_str()
+            f = open("{dir}/{file_name}.txt".format(dir=dir, file_name=deck.drafter.name), "w+")
+            f.write(txt)
+            f.close()
 
     def get_drafter_scores(self):
         """
@@ -261,6 +273,7 @@ class Draft:
             d3[key] = d2[key]
 
         return d3
+
 
 
 
