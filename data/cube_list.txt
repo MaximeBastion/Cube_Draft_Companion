@@ -7,9 +7,10 @@ Soldier of the Pantheon
 Steppe Lynx
 Thraben Inspector
 Accorder Paladin
+Adanto Vanguard
 Anafenza, Kin-Tree Spirit
 Charming Prince
-Knight of the White Orchid
+Seasoned Hallowblade
 Selfless Spirit
 Thalia, Guardian of Thraben
 Tithe Taker
@@ -17,11 +18,12 @@ Wall of Omens
 Blade Splicer
 Brimaz, King of Oreskos
 Flickerwisp
-Heliod's Pilgrim
 Silverblade Paladin
+Skyclave Apparition
+Basri's Lieutenant
 Hero of Bladehold
 Restoration Angel
-Lyra Dawnbringer
+Baneslayer Angel
 Reveillark
 Sun Titan
 Elesh Norn, Grand Cenobite
@@ -29,7 +31,6 @@ Condemn
 Ephemerate
 Gods Willing
 Path to Exile
-Raise the Alarm
 Shelter
 Forsake the Worldly
 Secure the Wastes
@@ -39,30 +40,33 @@ Timely Reinforcements
 Day of Judgment
 Sram's Expertise
 Wrath of God
-Triplicate Spirits
 Approach of the Second Sun
 Honor of the Pure
-Intangible Virtue
 Journey to Nowhere
 Banishing Light
+Glorious Anthem
 Oblivion Ring
 Cast Out
 Faith's Fetters
+Elspeth Conquers Death
 Spear of Heliod
 Delver of Secrets
+Baral, Chief of Compliance
 Brazen Borrower
 Looter il-Kor
 Merfolk Looter
+Sea Gate Stormcaller
 Snapcaster Mage
 Thassa's Oracle
 Watcher for Tomorrow
+Barrin, Tolarian Archmage
 Champion of Wits
 Cloudkin Seer
 Deceiver Exarch
 Man-o'-War
 Pestermite
 Vendilion Clique
-Dungeon Geists
+Master of Winds
 Ninja of the Deep Hours
 Talrand, Sky Summoner
 Urza, Lord High Artificer
@@ -74,7 +78,6 @@ Frost Titan
 Torrential Gearhulk
 Inkwell Leviathan
 Brainstorm
-Opt
 Spell Pierce
 Blink of an Eye
 Censor
@@ -88,18 +91,16 @@ Ghostly Flicker
 Thirst for Knowledge
 Cryptic Command
 Fact or Fiction
-Gifts Ungiven
 Repeal
+Sublime Epiphany
 Dig Through Time
 Ponder
 Preordain
 Serum Visions
 Chart a Course
 Compulsive Research
-Deep Analysis
-Polymorph
+Inscription of Insight
 Treasure Cruise
-Mind Control
 Thassa, Deep-Dwelling
 Bloodsoaked Champion
 Carrion Feeder
@@ -112,6 +113,7 @@ Dark Confidant
 Oona's Prowler
 Zulaport Cutthroat
 Midnight Reaper
+Nighthawk Scavenger
 Ophiomancer
 Vampire Nighthawk
 Woe Strider
@@ -122,6 +124,7 @@ Ravenous Chupacabra
 Gray Merchant of Asphodel
 Shriekmaw
 Grave Titan
+Massacre Wurm
 Tasigur, the Golden Fang
 Gurmag Angler
 Sheoldred, Whispering One
@@ -130,7 +133,7 @@ Scrapheap Scrounger
 Bolas's Citadel
 Fatal Push
 Tragic Slip
-Doom Blade
+Village Rites
 Go for the Throat
 Heartless Act
 Ultimate Price
@@ -160,28 +163,28 @@ Soul-Scar Mage
 Zurgo Bellstriker
 Aether Chaser
 Bonecrusher Giant
+Kargan Intimidator
 Kari Zev, Skyship Raider
 Kiln Fiend
 Mogg War Marshal
 Young Pyromancer
 Goblin Rabblemaster
-Guttersnipe
 Hissing Iguanar
 Legion Warboss
 Seasoned Pyromancer
-Avalanche Riders
 Flametongue Kavu
 Hellrider
 Pia and Kiran Nalaar
+Torbran, Thane of Red Fell
 Glorybringer
 Kiki-Jiki, Mirror Breaker
 Zealous Conscripts
+Chandra's Incinerator
 Inferno Titan
-Greater Gargadon
+Embercleave
 Burst Lightning
 Lightning Bolt
 Abrade
-Incinerate
 Lightning Strike
 Magma Jet
 Searing Blaze
@@ -189,6 +192,7 @@ Thrill of Possibility
 Brimstone Volley
 Char
 Through the Breach
+Magmatic Sinkhole
 Electrodominance
 Faithless Looting
 Firebolt
@@ -205,6 +209,7 @@ Arbor Elf
 Birds of Paradise
 Elvish Mystic
 Fyndhorn Elves
+Hexdrinker
 Joraga Treespeaker
 Llanowar Elves
 Noble Hierarch
@@ -213,12 +218,11 @@ Fauna Shaman
 Lotus Cobra
 Overgrown Battlement
 Sakura-Tribe Elder
-Satyr Wayfinder
 Scavenging Ooze
 Sylvan Caryatid
-Tarmogoyf
 Wall of Blossoms
 Wall of Roots
+Azusa, Lost but Seeking
 Elvish Archdruid
 Eternal Witness
 Ramunap Excavator
@@ -228,9 +232,11 @@ Master of the Wild Hunt
 Oracle of Mul Daya
 Acidic Slime
 Biogenic Ooze
+Elder Gargaroth
 Thragtusk
 Primeval Titan
 Rampaging Baloths
+Avenger of Zendikar
 Pelakka Wurm
 Voracious Hydra
 Craterhoof Behemoth
@@ -241,8 +247,6 @@ Pulse of Murasa
 Chord of Calling
 Explore
 Farseek
-Life from the Loam
-Regrowth
 Winding Way
 Cultivate
 Kodama's Reach
@@ -258,10 +262,8 @@ Yorion, Sky Nomad
 Momentary Blink
 Sphinx's Revelation
 Supreme Verdict
-Shadowmage Infiltrator
 Thief of Sanity
 Tomebound Lich
-Hostage Taker
 Gyruda, Doom of Depths
 Rakdos Cackler
 Kroxa, Titan of Death's Hunger
@@ -269,13 +271,10 @@ Falkenrath Aristocrat
 Murderous Redcap
 Obosh, the Preypiercer
 Kolaghan's Command
-Gruul Signet
 Kitchen Finks
 Nature's Chant
 Lurrus of the Dream-Den
 Fiend Artisan
-Abrupt Decay
-Maelstrom Pulse
 Uro, Titan of Nature's Wrath
 Prophet of Kruphix
 Tatyova, Benthic Druid
@@ -286,10 +285,7 @@ Izzet Charm
 Electrolyze
 Figure of Destiny
 Boros Reckoner
-Boros Charm
-Lightning Helix
-Emrakul, the Aeons Torn
-Pilgrim's Eye
+Omnath, Locus of Creation
 Porcelain Legionnaire
 Solemn Simulacrum
 Golos, Tireless Pilgrim
@@ -303,27 +299,28 @@ Bonesplitter
 Shadowspear
 Coldsteel Heart
 Fellwar Stone
+Mazemind Tome
 Mind Stone
 Prismatic Lens
 Prophetic Prism
 Thought Vessel
-Vulshok Morningstar
 Chromatic Lantern
 Crucible of Worlds
 Grafted Wargear
-Loxodon Warhammer
 Sword of Feast and Famine
 Sword of Fire and Ice
 Hedron Archive
 Panharmonicon
 Gilded Lotus
 Staff of Nin
+Agadeem's Awakening
 Arid Mesa
 Badlands
 Bayou
 Blood Crypt
 Bloodstained Mire
 Breeding Pool
+Emeria's Call
 Fabled Passage
 Flooded Strand
 Godless Shrine
@@ -343,6 +340,8 @@ Savai Triome
 Savannah
 Scalding Tarn
 Scrubland
+Sea Gate Restoration
+Shatterskull Smashing
 Steam Vents
 Stomping Ground
 Taiga
@@ -351,6 +350,7 @@ Temple of Deceit
 Temple of Enlightenment
 Tropical Island
 Tundra
+Turntimber Symbiosis
 Underground Sea
 Verdant Catacombs
 Volcanic Island

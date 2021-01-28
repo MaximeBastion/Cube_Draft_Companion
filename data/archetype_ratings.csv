@@ -50,8 +50,6 @@ Oblivion Ring,2,2,3,0,0,0,0,0,0,0,0,0,0
 Cast Out,0,1,3,0,0,0,0,0,0,0,0,0,0
 Faith's Fetters,0,1,3,0,0,0,0,0,0,0,0,0,0
 Spear of Heliod,3,1,0,0,0,0,0,0,0,0,0,0,0
-Delver of Secrets,0,0,0,3,0,3,0,0,0,0,0,0,0
-Brazen Borrower,0,3,3,3,1,0,0,0,0,0,0,0,0
 Looter il-Kor,0,0,1,2,3,0,0,2,0,0,0,0,0
 Merfolk Looter,0,0,0,2,3,0,0,2,0,0,0,0,0
 Snapcaster Mage,0,4,4,4,4,4,4,4,0,0,0,0,0
@@ -160,7 +158,6 @@ Monastery Swiftspear,0,0,0,0,0,2,0,0,0,0,0,3,0
 Soul-Scar Mage,0,0,0,0,0,0,0,0,0,0,0,3,0
 Zurgo Bellstriker,0,0,0,0,0,0,0,0,0,0,2,4,0
 Aether Chaser,0,0,0,0,0,0,0,0,0,0,1,2,0
-Bonecrusher Giant,0,0,0,0,0,1,0,0,0,0,1,4,0
 "Kari Zev, Skyship Raider",0,0,0,0,0,0,0,0,0,0,1,3,0
 Kiln Fiend,0,0,0,0,0,2,0,0,0,0,0,2,0
 Mogg War Marshal,0,0,0,0,0,0,0,0,0,0,3,2,0
@@ -320,7 +317,7 @@ Panharmonicon,0,3,0,0,0,0,0,0,0,0,0,0,0
 Gilded Lotus,0,0,2,2,2,0,4,0,0,0,0,0,0
 Staff of Nin,0,0,2,2,1,0,3,0,0,0,0,0,0
 Arid Mesa,0,4,4,0,0,4,4,4,0,0,4,0,0
-Badlands,0,0,0,0,0,0,0,0,0,0,4,0,0
+Badlands,0,0,0,0,0,0,0,0,0,0,9,0,0
 Bayou,0,0,0,0,0,0,0,0,0,0,0,0,0
 Blood Crypt,0,0,0,0,0,0,0,0,0,0,4,0,0
 Bloodstained Mire,0,0,0,4,4,4,4,4,0,0,4,0,0
@@ -359,3 +356,38 @@ Watery Grave,0,0,0,4,4,0,0,0,0,0,0,0,0
 Windswept Heath,0,4,4,0,0,0,0,0,4,0,0,0,0
 Wooded Foothills,0,0,0,0,0,4,4,4,4,0,4,0,0
 Zagoth Triome,0,0,0,4,4,0,0,0,4,0,0,0,0
+"Baral, Chief of Compliance",0,0,2,2,2,3,0,1,0,0,0,0,0
+Magmatic Sinkhole,0,0,0,0,0,3,2,2,0,0,1,1,0
+Adanto Vanguard,3,0,0,0,0,0,0,0,0,0,0,0,0
+Seasoned Hallowblade,3,0,0,0,0,0,0,0,0,0,0,0,0
+Skyclave Apparition,3,3,4,0,0,0,0,0,0,0,0,0,0
+Basri's Lieutenant,2,0,0,0,0,0,0,0,0,0,0,0,0
+Baneslayer Angel,0,0,3,0,0,0,0,0,0,0,0,0,0
+Glorious Anthem,2,1,0,0,0,0,0,0,0,0,0,0,0
+Elspeth Conquers Death,0,3,3,0,0,0,0,0,0,0,0,0,0
+Sea Gate Stormcaller,0,3,4,4,2,4,3,3,1,0,0,0,0
+"Barrin, Tolarian Archmage",0,2,2,2,1,1,1,1,1,0,0,0,0
+Master of Winds,0,2,2,2,3,2,1,2,1,0,0,0,0
+Sublime Epiphany,0,0,3,3,2,2,3,1,2,0,0,0,0
+Inscription of Insight,0,1,3,3,2,2,2,2,2,0,0,0,0
+Nighthawk Scavenger,0,0,0,2,1,0,0,0,0,3,1,0,0
+Massacre Wurm,0,0,0,2,3,0,0,0,0,3,0,0,0
+Village Rites,0,0,0,0,0,0,0,0,0,2,3,0,0
+Kargan Intimidator,0,0,0,0,0,1,0,0,0,0,1,2,0
+"Torbran, Thane of Red Fell",0,0,0,0,0,1,0,0,0,0,0,4,0
+Chandra's Incinerator,0,0,0,0,0,2,0,0,0,0,0,2,0
+Embercleave,0,0,0,0,0,0,0,0,0,0,2,4,0
+Hexdrinker,0,0,0,0,0,0,0,0,2,0,0,0,2
+"Azusa, Lost but Seeking",0,0,0,0,0,0,0,0,3,0,0,0,2
+Elder Gargaroth,0,0,0,0,0,0,0,0,3,0,0,0,3
+Avenger of Zendikar,0,0,0,0,0,0,0,0,3,0,0,0,3
+"Omnath, Locus of Creation",0,0,0,0,0,0,0,0,0,0,0,0,0
+Mazemind Tome,0,1,2,2,2,1,2,2,2,2,1,0,3
+Delver of Secrets,0,0,0,2,0,4,0,0,0,0,0,0,0
+Brazen Borrower,0,2,3,3,2,2,3,2,2,0,0,0,0
+Bonecrusher Giant,0,0,0,0,0,2,2,1,0,0,2,4,0
+Agadeem's Awakening,0,0,0,3,3,0,0,0,0,3,4,0,0
+Emeria's Call,0,2,4,0,0,0,0,0,0,0,0,0,0
+Sea Gate Restoration,0,1,3,2,2,2,2,2,3,0,0,0,0
+Shatterskull Smashing,0,0,0,0,0,3,3,3,0,0,3,3,0
+Turntimber Symbiosis,0,0,0,0,0,0,0,0,4,0,0,0,4
