@@ -5,6 +5,7 @@ from os.path import isfile, join
 import requests
 import shutil
 import pandas as pd
+from pathlib import Path
 
 
 class IoManager:
@@ -136,6 +137,7 @@ class IoManager:
         :return: list of card names
         """
         path = IoManager.CARD_IMAGES_PATH_EN if lang == "en" else IoManager.CARD_IMAGES_PATH_FR
+        Path(path).mkdir(parents=True, exist_ok=True)
         file_names_en = [f for f in listdir(path) if
                          isfile(join(path, f))]
         card_names = [f[:-4] for f in file_names_en]
