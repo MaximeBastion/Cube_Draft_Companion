@@ -1,6 +1,5 @@
 import arcade
 from CardGui import CardGui, PackGui
-import UI
 from IoManager import IoManager
 from main import main
 
