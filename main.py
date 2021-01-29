@@ -1,6 +1,6 @@
 import arcade
 from App import App
-from IoManager import IoManager
+from IoManager import IoManager, DataFetcher, RatingsInitializer
 from Drafter import Drafter
 from Archetypes import Archetypes
 from Draft import Draft
@@ -20,7 +20,9 @@ def main():
     pd.set_option('precision', 2)
     pd.set_option('expand_frame_repr', False)
 
+    DataFetcher.update_base_data()
     archetypes = Archetypes()
+    RatingsInitializer.prepare_new_ratings(archetypes=archetypes)
     io_manager = IoManager(download_missing_images=True, archetypes=archetypes)
     # Visualizer(io_manager=io_manager).visualize_arch_presence_correlations()
     #stats = get_stats_on_card_picks(io_manager=io_manager, archetypes=archetypes, max_amount=500)  # -> which cards should leave?

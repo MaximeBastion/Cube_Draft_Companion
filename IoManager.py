@@ -6,7 +6,8 @@ import requests
 import shutil
 import pandas as pd
 from pathlib import Path
-
+import time
+import numpy as np
 
 class IoManager:
     """
@@ -141,6 +142,7 @@ class IoManager:
         file_names_en = [f for f in listdir(path) if
                          isfile(join(path, f))]
         card_names = [f[:-4] for f in file_names_en]
+        card_names = [c.replace("__", "//") for c in card_names]  # to handle double-faced cards
         return card_names
 
     def get_missing_images(self):
@@ -166,6 +168,7 @@ class IoManager:
             print("Dowloading card imgs for \'" + card_name + "\' (" + lang + ")")
             output_file_name = card_name + ".jpg"
             output_file_path = IoManager.CARD_IMAGES_PATH_EN + "/" + output_file_name if lang == "en" else IoManager.CARD_IMAGES_PATH_FR + "/" + output_file_name
+            output_file_path = output_file_path.replace('//', '__')
             en_url, fr_url = self.get_card_urls(card_name)
             url = en_url if lang == "en" else fr_url
             # Open the url image, set stream to True, this will return the stream content.
@@ -249,3 +252,217 @@ class IoManager:
         new_df.to_csv(IoManager.ARCH_PRESENCE_PATH)
         return new_df
 
+
+class DataFetcher:
+    """
+    Used to get base card data from cube_list.txt using Scryfall api
+    """
+
+    @staticmethod
+    def update_base_data():
+        cube_list_file_name = "cube_list.txt"
+        output_csv_name = "cube_list_base_data.csv"
+        #DataFetcher.clean_double_faced_from_cube_list(cube_list_file_name=cube_list_file_name)
+        new_base_data = DataFetcher.fetch_clean_save(cube_list_file_name=cube_list_file_name, output_csv_name=output_csv_name)
+        if new_base_data is not None:
+            print(new_base_data.tail(10))
+
+    @staticmethod
+    # Returns the infos for a card in english, with its fr img urls too
+    def get_card_data(card_name):
+        card_name = "\"" + card_name + "\""
+        time.sleep(0.1)
+        en_data = requests.get("https://api.scryfall.com/cards/search?q=!" + card_name).json()
+        time.sleep(0.1)
+        fr_data = requests.get("https://api.scryfall.com/cards/search?q=!" + card_name + "+lang%3Afr").json()
+        en_output = en_data["data"][0]
+        fr_output = fr_data["data"][0] if "data" in fr_data else None  # fr version my not exist
+        if fr_output is None:
+            print("French missing for " + card_name)
+
+        # handling double-faced cards
+        if "card_faces" in en_output and en_output["layout"] == "modal_dfc":
+            full_name = en_output["name"]
+            en_output = {**en_output, **en_output["card_faces"][0]}
+            en_output["name"] = full_name
+            if fr_output is not None:
+                fr_output = fr_output["card_faces"][0]
+        return en_output, fr_output
+
+    @staticmethod
+    # Returns a Dataframe containing the relevant fields of the cards in the list
+    def get_cards_data(card_names):
+        relevant_fields_en = [
+            "name",
+            "highres_image",
+            "image_uris",
+            "mana_cost",
+            "cmc",
+            "type_line",
+            "power",
+            "toughness",
+            "colors",
+            "color_identity"
+        ]
+        relevant_fields_fr = [
+            "image_uris"
+        ]
+        raw_data = [DataFetcher.get_card_data(card_name) for card_name in card_names]
+        df_content = {}
+        for field in relevant_fields_en:
+            df_content[field] = [data[0][field] if field in data[0] else np.nan for data in raw_data]
+        for field in relevant_fields_fr:
+            df_content[field + "_fr"] = [data[1][field] if data[1] is not None and field in data[1] else np.nan for data in
+                                         raw_data]
+        df = pd.DataFrame(df_content)
+        return df
+
+    @staticmethod
+    def clean_double_faced_from_cube_list(cube_list_file_name):
+        # removes the second face name for each double faced card
+        f = open("data/" + cube_list_file_name, "r")
+        lines = f.readlines()
+        f.close()
+
+        def rm_second_face(line):
+            if "//" in line:
+                return line.split(" //")[0] + "\n"
+            return line
+
+        lines = [rm_second_face(l) for l in lines]
+        f = open("data/" + cube_list_file_name, "w")
+        f.write("".join(lines))
+        f.close()
+
+    @staticmethod
+    def get_cube_list(cube_list_file_name):
+        f = open("data/" + cube_list_file_name, "r")
+        lines = f.readlines()
+        f.close()
+        # removing '\n' at then end of each name
+        lines = [card_name[:-1] for card_name in lines]
+        return lines
+
+    @staticmethod
+    def infer_new_cards(cube_list, output_csv_name):
+        prev_ratings = pd.read_csv("data/" + output_csv_name)
+        new_cards = [c for c in cube_list if c not in prev_ratings.name.to_list()]
+        print("There are {} new cards: \n{}".format(len(new_cards), new_cards))
+        return new_cards
+
+    @staticmethod
+    # gets the cube list, fetches the data for each card, and saves the data as a csv
+    def fetch_cube_data(cube_list_file_name, output_csv_name):
+        cube_list = DataFetcher.get_cube_list(cube_list_file_name)
+        new_cards = DataFetcher.infer_new_cards(cube_list, output_csv_name=output_csv_name)
+        if not new_cards:
+            return pd.DataFrame()
+        cube_data = DataFetcher.get_cards_data(new_cards)
+        return cube_data
+
+    @staticmethod
+    # creates seperate features to store each img url
+    def clean_image_urls(cube_data):
+        for lang in ["en", "fr"]:
+            for image_type in ["small", "normal", "large", "png"]:
+                feature_name = "img_" + lang + "_" + image_type
+                current_feature = "image_uris" if lang == "en" else "image_uris_fr"
+                cube_data[feature_name] = cube_data[current_feature].apply(
+                    lambda d: d[image_type] if type(d) != float and d != None and image_type in d else np.nan)
+
+    @staticmethod
+    def clean_colors(cube_data):
+        colors = ["W", "U", "B", "R", "G"]
+        color_pairs = ["WU", "WB", "WR", "WG", "UB", "UR", "UG", "BR", "BR", "RG"]
+        for color in colors:
+            cube_data[color] = cube_data["color_identity"].apply(lambda l: 1 if color in l else 0)
+        for c, c2 in color_pairs:
+            cube_data[c + c2] = cube_data["color_identity"].apply(lambda l: 1 if c in l and c2 in l else 0)
+
+    @staticmethod
+    def clean_type_line(cube_data):
+        cube_data["type_line"] = cube_data["type_line"].str.replace(' —', ':')
+
+    @staticmethod
+    def clean_cmc(cube_data):
+        cube_data["cmc"] = cube_data["cmc"].astype(int)
+
+    @staticmethod
+    def remove_old_columns(cube_data):
+        old_columns = ["image_uris", "image_uris_fr"]
+        valid_columns = [c for c in cube_data.columns if c not in old_columns]
+        return cube_data[valid_columns]
+
+    @staticmethod
+    def clean_booleans(cube_data):
+        cube_data["highres_image"] = cube_data["highres_image"].astype(int)
+
+    @staticmethod
+    def clean_cube_data(cube_data):
+        DataFetcher.clean_image_urls(cube_data)
+        DataFetcher.clean_colors(cube_data)
+        DataFetcher.clean_type_line(cube_data)
+        DataFetcher.clean_cmc(cube_data)
+        DataFetcher.clean_booleans(cube_data)
+        return DataFetcher.remove_old_columns(cube_data)
+
+    @staticmethod
+    def save_csv(cube_data, output_csv_name, cube_list_file_name):
+        current_data = pd.read_csv("data/" + output_csv_name)
+        new_cards = DataFetcher.infer_new_cards(cube_list=DataFetcher.get_cube_list(cube_list_file_name=cube_list_file_name), output_csv_name=output_csv_name)
+        new_rows = cube_data[cube_data.name.isin(new_cards)]
+        new_cube_data = current_data.append(new_rows).reset_index(drop=True)
+        new_cube_data.to_csv("data/" + output_csv_name, index=False)
+        return new_cube_data
+
+    @staticmethod
+    # does it all
+    def fetch_clean_save(cube_list_file_name, output_csv_name):
+        cube_data = DataFetcher.fetch_cube_data(cube_list_file_name=cube_list_file_name, output_csv_name=output_csv_name)
+        if len(cube_data.index) == 0:
+            return None
+        cube_data_clean = DataFetcher.clean_cube_data(cube_data)
+        return DataFetcher.save_csv(cube_data=cube_data, output_csv_name=output_csv_name, cube_list_file_name=cube_list_file_name)
+
+
+class RatingsInitializer:
+
+    @staticmethod
+    def prepare_new_ratings(archetypes):
+        new_ratings = RatingsInitializer.setup_for_new_cards(RatingsInitializer.load_cards_df(), archetypes)
+        if new_ratings is not None:
+            RatingsInitializer.save_csv(new_ratings)
+        return new_ratings
+
+    @staticmethod
+    def load_cards_df():
+        df = pd.read_csv("data/cube_list_base_data.csv")
+        for list_feature in ["colors", "color_identity"]:
+            df[list_feature] = df[list_feature].apply(lambda e: e if type(e) != float else "[]")
+            df[list_feature] = df[list_feature].apply(ast.literal_eval)
+        return df
+
+    @staticmethod
+    def setup_for_new_cards(df, archetypes):
+        new_df = pd.DataFrame({"name": df["name"]})
+        for arch in archetypes.list:
+            feature_name = arch.name.lower().replace(' ', '_')
+            new_df[feature_name] = df["color_identity"].apply(lambda l: 9 if arch.is_available(l) else 0)
+
+        # merging with existing ratings
+        current_ratings = pd.read_csv("data/archetype_ratings.csv")
+        new_cards = [c for c in df.name.to_list() if c not in current_ratings.name.to_list()]
+        if new_cards:
+            print("Preparing ratings for new cards: {}".format(new_cards))
+            print("Make sure to manually replace 9 values by 0-4 values")
+            exit()
+        else:
+            return None
+
+        new_rows = new_df[new_df.name.isin(new_cards)]
+        new_ratings = current_ratings.append(new_rows)
+        return new_ratings
+
+    @staticmethod
+    def save_csv(new_df):
+        new_df.to_csv("data/archetype_ratings.csv", index=False)

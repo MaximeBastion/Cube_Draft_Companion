@@ -52,7 +52,7 @@ Elspeth Conquers Death
 Spear of Heliod
 Delver of Secrets
 Baral, Chief of Compliance
-Brazen Borrower
+Brazen Borrower // Petty Theft
 Looter il-Kor
 Merfolk Looter
 Sea Gate Stormcaller
@@ -162,7 +162,7 @@ Monastery Swiftspear
 Soul-Scar Mage
 Zurgo Bellstriker
 Aether Chaser
-Bonecrusher Giant
+Bonecrusher Giant // Stomp
 Kargan Intimidator
 Kari Zev, Skyship Raider
 Kiln Fiend
@@ -313,14 +313,14 @@ Hedron Archive
 Panharmonicon
 Gilded Lotus
 Staff of Nin
-Agadeem's Awakening
+Agadeem's Awakening // Agadeem, the Undercrypt
 Arid Mesa
 Badlands
 Bayou
 Blood Crypt
 Bloodstained Mire
 Breeding Pool
-Emeria's Call
+Emeria's Call // Emeria, Shattered Skyclave
 Fabled Passage
 Flooded Strand
 Godless Shrine
@@ -340,8 +340,8 @@ Savai Triome
 Savannah
 Scalding Tarn
 Scrubland
-Sea Gate Restoration
-Shatterskull Smashing
+Sea Gate Restoration // Sea Gate, Reborn
+Shatterskull Smashing // Shatterskull, the Hammer Pass
 Steam Vents
 Stomping Ground
 Taiga
@@ -350,7 +350,7 @@ Temple of Deceit
 Temple of Enlightenment
 Tropical Island
 Tundra
-Turntimber Symbiosis
+Turntimber Symbiosis // Turntimber, Serpentine Wood
 Underground Sea
 Verdant Catacombs
 Volcanic Island
