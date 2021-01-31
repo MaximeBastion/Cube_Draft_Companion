@@ -94,7 +94,8 @@ class IoManager:
         mapping = {
             2: 3,
             3: 8,
-            4: 30
+            4: 30,
+            5: 60
         }
         ratings = ratings.applymap(lambda e: mapping[e] if e in mapping else e)
         return ratings
@@ -197,7 +198,7 @@ class IoManager:
         fr_url = card_row["img_fr_large"].iloc[0]
         return en_url, fr_url
 
-    def download_missing_images(self):
+    def download_missing_images(self, only_english: bool = True):
         """
         Checks for missing images, and downloads them if any are found
         :return:
@@ -205,7 +206,7 @@ class IoManager:
         print("\nChecking for missing images")
         missing_images_en, missing_images_fr = self.get_missing_images()
         for card_names, lang in [(missing_images_en, "en"), (missing_images_fr, "fr")]:
-            if card_names:
+            if card_names and (not only_english or lang == "en"):
                 self.download_card_images(card_names, lang)
 
     @staticmethod
@@ -432,6 +433,7 @@ class RatingsInitializer:
         new_ratings = RatingsInitializer.setup_for_new_cards(RatingsInitializer.load_cards_df(), archetypes)
         if new_ratings is not None:
             RatingsInitializer.save_csv(new_ratings)
+            exit()
         return new_ratings
 
     @staticmethod
@@ -455,13 +457,10 @@ class RatingsInitializer:
         if new_cards:
             print("Preparing ratings for new cards: {}".format(new_cards))
             print("Make sure to manually replace 9 values by 0-4 values")
-            exit()
-        else:
-            return None
 
         new_rows = new_df[new_df.name.isin(new_cards)]
         new_ratings = current_ratings.append(new_rows)
-        return new_ratings
+        return new_ratings if new_cards else None
 
     @staticmethod
     def save_csv(new_df):
