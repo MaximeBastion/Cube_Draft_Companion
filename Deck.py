@@ -254,8 +254,8 @@ class Deck:
             [get_card_as_text_line(side_rows, c_name) for c_name in list(side_rows.name)]
         )
 
-        intro_text = "{drafter_name}\n{archetype}\n{date_time}"\
-            .format(drafter_name=self.drafter.name, archetype=self.drafter.archetype.name, date_time=datetime.now())
+        intro_text = "{drafter_name}\n{archetype}\n"\
+            .format(drafter_name=self.drafter.name, archetype=self.drafter.archetype.name)
 
         complete_text = "\n\n".join([intro_text, main_text, side_text])
         return complete_text

@@ -237,7 +237,7 @@ class App(arcade.Window):
         if debug:
             print("Setting display card to" + card_path)
         old_alpha = 255 if not self.card_display_sprite else self.card_display_sprite.alpha
-        self.card_display_sprite = arcade.Sprite(card_path, scale=CARD_DISPLAY_SCALING)
+        self.card_display_sprite = arcade.Sprite(card_path.replace('//', '__'), scale=CARD_DISPLAY_SCALING)
         self.card_display_sprite.top = CARD_DISPLAY_TOP
         self.card_display_sprite.right = CARD_DISPLAY_RIGHT
         self.card_display_sprite.guid = card_path

@@ -8,8 +8,8 @@ from Visualizer import Visualizer
 import pandas as pd
 import Views
 
-SCREEN_WIDTH = int(1920 * .5)
-SCREEN_HEIGHT = int(1080 * .5)
+SCREEN_WIDTH = int(1920 * 1)
+SCREEN_HEIGHT = int(1080 * 1)
 SCREEN_TITLE = "Cube Draft Companion"
 
 
