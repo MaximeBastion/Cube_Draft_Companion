@@ -267,7 +267,7 @@ class App(arcade.Window):
             left_x = DECK_LEFT_X + category_index * (WIDTH_BETWEEN_CATEGORIES + CARD_WIDTH)
             for card_index, card_path in enumerate(paths):
                 top_y = DECK_TOP_Y - HEIGHT_BETWEEN_CARDS * card_index
-                sprite = arcade.Sprite(card_path, CARD_SCALE)
+                sprite = arcade.Sprite(card_path.replace('//', '__'), CARD_SCALE)
                 sprite.guid = card_path
                 sprite.left = left_x
                 sprite.top = top_y
